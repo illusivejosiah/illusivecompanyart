@@ -14280,6 +14280,10 @@ figcaption {
   padding: 0;
 }
 
+.qstack_c2.hide {
+  display: none;
+}
+
 .qstack_c2.standalone {
   padding-top: 15px;
   padding-bottom: 5px;
@@ -24065,10 +24069,6 @@ figcaption {
 
   .qstack_c2.link {
     grid-row-gap: 8px;
-  }
-
-  .qstack_c2.hide {
-    display: none;
   }
 
   .rt_c.link {
