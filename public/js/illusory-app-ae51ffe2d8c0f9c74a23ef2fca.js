@@ -3701,7 +3701,8 @@
       var uncurryThis = require_function_uncurry_this();
       var id = 0;
       var postfix = Math.random();
-      var toString = uncurryThis(1 .toString);
+      var num = 1;
+      var toString = uncurryThis(num.toString)
       module2.exports = function(key2) {
         return "Symbol(" + (key2 === void 0 ? "" : key2) + ")_" + toString(++id + postfix, 36);
       };
