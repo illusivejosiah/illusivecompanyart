@@ -13268,7 +13268,7 @@ figcaption {
 }
 
 .lottie_btn_ldr.realtime {
-  max-width: revert;
+  max-width: 16px;
   margin-right: 0;
   display: none;
 }
@@ -15253,8 +15253,7 @@ figcaption {
 }
 
 .err_alert_ind_small {
-  width: 10px;
-  height: 10px;
+
   margin-right: 10px;
 }
 
@@ -15264,17 +15263,8 @@ figcaption {
   margin-right: 10px;
 }
 
-.err_alert_ind_small.orange {
-  background-image: url('../images/orange-ellipse-basic.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: auto;
-  border-radius: 20px;
-  margin-right: 10px;
-}
-
 .err_alert_ind_small.green {
-  background-image: url('../images/green-ellipse-basic.svg');
+  background-image: url('../images/green-check-w18.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
