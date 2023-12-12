@@ -13267,6 +13267,12 @@ figcaption {
   top: 3px;
 }
 
+.lottie_btn_ldr.realtime {
+  max-width: revert;
+  margin-right: 0;
+  display: none;
+}
+
 .btn_icon {
   width: 14px;
   height: 14px;
@@ -15238,6 +15244,7 @@ figcaption {
   grid-template-columns: 10fr 1fr;
   align-content: center;
   align-items: center;
+  max-height: 28px;
 }
 
 .dialog_txt_item {
@@ -19750,7 +19757,6 @@ figcaption {
   position: relative;
   top: 3px;
 }
-
 .lottie_ldr--btn.middle {
   z-index: 5;
   max-width: 18px;
