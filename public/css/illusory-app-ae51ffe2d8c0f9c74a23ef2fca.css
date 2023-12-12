@@ -24067,6 +24067,10 @@ figcaption {
     grid-row-gap: 8px;
   }
 
+  .qstack_c2.hide {
+    display: none;
+  }
+
   .rt_c.link {
     align-items: flex-start;
   }
