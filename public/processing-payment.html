@@ -70,7 +70,7 @@
     <div class="sect_crds_content--container">
       <div checkout_container="amount" class="sect_content alt1">
         <div class="sect_bgico">
-          <div data-w-id="03f4b508-9e21-c4c0-0bb2-a469de13a351" style="opacity:0" class="bgico">
+          <div style="opacity:0" class="bgico">
             <div class="big_ico_content--wrap">
               <div class="bgico_tit">
                 <div class="bgico_tit_txt">Processing payment</div>
@@ -78,7 +78,7 @@
               </div>
               <div class="w-layout-grid bgico_cta_grid">
                 <div class="bgico_cta_btn w-clearfix">
-                  <a data-w-id="0e446cad-e5ba-2af4-d47b-98cc59b9b751" href="new.html" class="sect_crd_rt_cta w-inline-block w-clearfix">
+                  <a href="new.html" class="sect_crd_rt_cta w-inline-block w-clearfix">
                     <div class="sect_crd_rt_cta_txt">Add Proxies</div><img src="images/arrow-right-thin.svg" loading="lazy" alt="" class="rt_cta_ico right">
                   </a>
                 </div>
@@ -101,7 +101,7 @@
         <div class="pymnt_optn_wrp w-clearfix">
           <div back_btn="options" class="go_back_link w-clearfix">
             <div id="modCancBtnIco" class="btn_icon back">
-              <div id="modCancBtnLdr" class="lottie_btn_ldr" data-w-id="f7e2a44a-ca1e-8a91-85df-1d9d4d11e5c1" data-animation-type="lottie" data-src="documents/chipped-circle-loader-v3.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="1" data-duration="0.65"></div>
+              <div id="modCancBtnLdr" class="lottie_btn_ldr" data-animation-type="lottie" data-src="documents/chipped-circle-loader-v3.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="1" data-duration="0.65"></div>
             </div>
             <div class="action_btn_text">Go Back</div>
           </div>
@@ -167,17 +167,16 @@
         </div>
       </div>
     </div>
-    <div id="errDivSmall" class="alert_wrp_small">
+    <div errDiv="small" class="alert_wrp_small">
       <div class="w-layout-grid alert_wrp_small_grid">
-        <div id="w-node-_74bafed5-d4d5-778d-fe2a-8043f9638c17-0b08697c" class="dialog_txt_item">
-          <div err_alert_ind="true" class="err_alert_ind_small orange"></div>
-          <div id="errTxtSmall" class="dialog_txt alt">Error</div>
-        </div>
-        <div id="w-node-e6598978-c406-07ff-ce45-e19ec3aba552-0b08697c" class="alert_small_grid_item right">
-          <div class="btn_ldr_wrp w-embed">
-            <lottie-player class="lottie_btn_ldr _17_2" err_item_ldr="realtime" src="https://lottie.host/79a0a014-ba6e-4031-b331-2f5259d09f50/YpYY2Fm3RC.json">
-            </lottie-player>
+        <div class="dialog_txt_item">
+          <div err_alert_ind="true" class="err_alert_ind_small orange">
+            <div class="btn_ldr_wrp w-embed">
+              <lottie-player class="lottie_btn_ldr realtime" err_item_ldr="realtime" src="../documents/realtime-loader-cropped.json" background="transparent" style="display: flex;">
+              </lottie-player>
+            </div>
           </div>
+          <div id="errTxtSmall" class="dialog_txt alt">Error</div>
         </div>
       </div>
     </div>
