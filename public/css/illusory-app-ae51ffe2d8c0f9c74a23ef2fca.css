@@ -15271,6 +15271,14 @@ figcaption {
   border-radius: 20px;
 }
 
+.err_alert_ind_small.orange {
+  background-image: none;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-radius: 20px;
+}
+
 .new_ind_wrp_v3 {
   z-index: 1;
   min-height: 18px;
