@@ -15199,7 +15199,7 @@ figcaption {
 
 .alert_wrp_small {
   z-index: 99;
-  max-width: 280px;
+  max-width: max-content;
   background-color: #141414;
   border: .5px solid #252525;
   border-radius: 4px;
@@ -15273,6 +15273,7 @@ figcaption {
   background-repeat: no-repeat;
   background-size: auto;
   border-radius: 20px;
+  min-width: 14px;
 }
 
 .err_alert_ind_small.orange {
@@ -15281,6 +15282,7 @@ figcaption {
   background-repeat: no-repeat;
   background-size: auto;
   border-radius: 20px;
+  min-width: 14px;
 }
 
 .new_ind_wrp_v3 {
