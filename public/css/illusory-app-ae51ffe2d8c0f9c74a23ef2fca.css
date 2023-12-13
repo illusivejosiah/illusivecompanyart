@@ -1148,7 +1148,7 @@ figcaption {
 .checkbox.w--redirected-checked {
   height: 16px;
   background-color: var(--primary-1);
-  background-image: url('../app/images/icon-check.svg');
+  background-image: url('../images/icon-check.svg');
   background-repeat: no-repeat;
   background-size: auto;
   border-style: none;
@@ -1217,7 +1217,7 @@ figcaption {
   background-color: var(--gray-4);
   opacity: .5;
   cursor: pointer;
-  background-image: url('../app/images/checkbox-switch-handle.svg');
+  background-image: url('../images/checkbox-switch-handle.svg');
   background-position: 18%;
   background-repeat: no-repeat;
   background-size: 12px 12px;
@@ -1232,7 +1232,7 @@ figcaption {
 .checkbox-switch.w--redirected-checked {
   background-color: var(--primary-1);
   opacity: 1;
-  background-image: url('../app/images/checkbox-switch-handle.svg');
+  background-image: url('../images/checkbox-switch-handle.svg');
   background-position: 82%;
   background-size: 12px 12px;
 }
@@ -2151,7 +2151,7 @@ figcaption {
 
 .hero-bg-1 {
   opacity: .5;
-  background-image: url('../app/images/rectangle-6.jpg');
+  background-image: url('../images/rectangle-6.jpg');
   background-position: 0 0;
   background-size: cover;
   border-radius: 12px;
@@ -2782,7 +2782,7 @@ figcaption {
 
 .quote-background-image {
   opacity: .15;
-  background-image: url('../app/images/rectangle-5.jpg');
+  background-image: url('../images/rectangle-5.jpg');
   background-position: 50%;
   background-size: cover;
   position: absolute;
@@ -5317,7 +5317,7 @@ figcaption {
 
 .bhwbtn-ctn.white {
   background-color: var(--white);
-  background-image: url('../app/images/exit.svg');
+  background-image: url('../images/exit.svg');
   background-position: 94%;
   background-repeat: no-repeat;
   background-size: 17px;
@@ -5476,7 +5476,7 @@ figcaption {
   max-width: 210px;
   color: #7b74ff;
   text-align: right;
-  background-image: url('../app/images/help---purple.svg');
+  background-image: url('../images/help---purple.svg');
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: 16px;
@@ -5630,7 +5630,7 @@ figcaption {
 }
 
 .dashboard-header-section-copy {
-  background-image: url('../app/images/iPhoneX---Minimal-Freebie-.png');
+  background-image: url('../images/iPhoneX---Minimal-Freebie-.png');
   background-position: 0 0;
   background-size: auto;
   margin-left: auto;
@@ -6355,7 +6355,7 @@ figcaption {
 .details-menu-text-wrap {
   width: 100%;
   cursor: pointer;
-  background-image: url('../app/images/proxy-rotate-icon.svg');
+  background-image: url('../images/proxy-rotate-icon.svg');
   background-position: 20px;
   background-repeat: no-repeat;
   background-size: 18px;
@@ -6374,16 +6374,16 @@ figcaption {
 }
 
 .details-menu-text-wrap.reboot {
-  background-image: url('../app/images/reboot-icon.svg');
+  background-image: url('../images/reboot-icon.svg');
   background-size: 16px;
 }
 
 .details-menu-text-wrap.stars {
-  background-image: url('../app/images/stars-icon.svg');
+  background-image: url('../images/stars-icon.svg');
 }
 
 .details-menu-text-wrap.copy {
-  background-image: url('../app/images/copy-icon-1op.svg');
+  background-image: url('../images/copy-icon-1op.svg');
   background-size: 19px;
 }
 
@@ -8392,7 +8392,7 @@ figcaption {
 }
 
 .main-action-wrap {
-  background-image: url('../app/images/downgrade-arrow.svg');
+  background-image: url('../images/downgrade-arrow.svg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: 15px;
@@ -8400,7 +8400,7 @@ figcaption {
 }
 
 .main-action-wrap.cancel {
-  background-image: url('../app/images/trash-can.svg');
+  background-image: url('../images/trash-can.svg');
   background-size: 16px;
 }
 
@@ -9474,7 +9474,7 @@ figcaption {
   width: auto;
   height: auto;
   float: left;
-  background-image: url('../app/images/notify-bell.svg');
+  background-image: url('../images/notify-bell.svg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: 13px;
@@ -9551,13 +9551,13 @@ figcaption {
 }
 
 .side-nav-link.proxies {
-  background-image: url('../app/images/Phone-Icon.svg');
+  background-image: url('../images/Phone-Icon.svg');
   background-position: 0%;
   background-repeat: no-repeat;
 }
 
 .side-nav-link.subscription {
-  background-image: url('../app/images/credit-card-02.svg');
+  background-image: url('../images/credit-card-02.svg');
   background-position: 10px;
   background-repeat: no-repeat;
   background-size: 14px 14px;
@@ -9570,13 +9570,13 @@ figcaption {
 .side-nav-link.subscription.on {
   color: #fff;
   background-color: #272b30;
-  background-image: url('../app/images/Money-Icon-White.svg');
+  background-image: url('../images/Money-Icon-White.svg');
   box-shadow: inset 0 1px 1px rgba(255, 255, 255, .11);
 }
 
 .side-nav-link.settings {
   color: #616366;
-  background-image: url('../app/images/Gear-Icon.svg');
+  background-image: url('../images/Gear-Icon.svg');
   background-position: 10px;
   background-repeat: no-repeat;
   background-size: 17px;
@@ -9586,11 +9586,11 @@ figcaption {
 .side-nav-link.settings:hover {
   color: #fff;
   background-color: #151618;
-  background-image: url('../app/images/Gear-Icon-White.svg');
+  background-image: url('../images/Gear-Icon-White.svg');
 }
 
 .side-nav-link.questions {
-  background-image: url('../app/images/Question-Icon.svg');
+  background-image: url('../images/Question-Icon.svg');
   background-position: 0%;
   background-repeat: no-repeat;
 }
@@ -9638,7 +9638,7 @@ figcaption {
 }
 
 .side-nav-dropown-list.proxies {
-  background-image: url('../app/images/tree_nav.svg');
+  background-image: url('../images/tree_nav.svg');
   background-position: 16px 1px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -9646,7 +9646,7 @@ figcaption {
 }
 
 .side-nav-dropown-list.proxies.w--open {
-  background-image: url('../app/images/Tree-Group.svg');
+  background-image: url('../images/Tree-Group.svg');
   background-position: -17px -2px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -9670,7 +9670,7 @@ figcaption {
 }
 
 .side-nav-dropdown-link.proxies {
-  background-image: url('../app/images/phone-light1.svg');
+  background-image: url('../images/phone-light1.svg');
   background-position: 10px;
   background-repeat: no-repeat;
   display: flex;
@@ -9720,7 +9720,7 @@ figcaption {
 .side-nav-link-help {
   float: left;
   color: #6f767e;
-  background-image: url('../app/images/Life-Icon-Grey-3.svg');
+  background-image: url('../images/Life-Icon-Grey-3.svg');
   background-position: 0 9px;
   background-repeat: no-repeat;
   background-size: 17px;
@@ -9737,30 +9737,30 @@ figcaption {
 
 .side-nav-link-help:hover {
   color: var(--white);
-  background-image: url('../app/images/Life-Icon-White-3.svg');
+  background-image: url('../images/Life-Icon-White-3.svg');
   background-size: 17px;
 }
 
 .side-nav-link-help.proxies {
-  background-image: url('../app/images/Phone-Icon.svg');
+  background-image: url('../images/Phone-Icon.svg');
   background-position: 0%;
   background-repeat: no-repeat;
 }
 
 .side-nav-link-help.subscription {
-  background-image: url('../app/images/Money-Icon.svg');
+  background-image: url('../images/Money-Icon.svg');
   background-position: 0%;
   background-repeat: no-repeat;
 }
 
 .side-nav-link-help.settings {
-  background-image: url('../app/images/Gear-Icon.svg');
+  background-image: url('../images/Gear-Icon.svg');
   background-position: 0%;
   background-repeat: no-repeat;
 }
 
 .side-nav-link-help.questions {
-  background-image: url('../app/images/Question-Icon.svg');
+  background-image: url('../images/Question-Icon.svg');
   background-position: 10%;
   background-repeat: no-repeat;
 }
@@ -10006,7 +10006,7 @@ figcaption {
 
 .prx_crd_tit_sec_v2 {
   z-index: 1;
-  background-image: url('../app/images/iPhoneX---Minimal-Freebie-.png');
+  background-image: url('../images/iPhoneX---Minimal-Freebie-.png');
   background-position: 0 1px;
   background-repeat: no-repeat;
   background-size: 27px;
@@ -10210,7 +10210,7 @@ figcaption {
 }
 
 .avatar-link.logout {
-  background-image: url('../app/images/Logout-Icon.svg');
+  background-image: url('../images/Logout-Icon.svg');
   background-position: 94%;
   background-repeat: no-repeat;
   background-size: 16px 16px;
@@ -10220,7 +10220,7 @@ figcaption {
 
 .avatar-link.logout:hover {
   background-color: #3c4146;
-  background-image: url('../app/images/Logout-Icon-1.svg');
+  background-image: url('../images/Logout-Icon-1.svg');
   border-radius: 0 0 8px 8px;
 }
 
@@ -10236,7 +10236,7 @@ figcaption {
   height: 16px;
   float: right;
   clear: none;
-  background-image: url('../app/images/Logout-Icon.svg');
+  background-image: url('../images/Logout-Icon.svg');
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: 16px 16px;
@@ -10244,7 +10244,7 @@ figcaption {
 }
 
 .avatar-logout-icon:hover {
-  background-image: url('../app/images/Logout-Icon-1.svg');
+  background-image: url('../images/Logout-Icon-1.svg');
   background-position: 100%;
   background-size: 16px 16px;
 }
@@ -10252,7 +10252,7 @@ figcaption {
 .div-block-41 {
   width: 16px;
   height: 16px;
-  background-image: url('../app/images/Logout-Icon.svg');
+  background-image: url('../images/Logout-Icon.svg');
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: 16px 16px;
@@ -10310,7 +10310,7 @@ figcaption {
 }
 
 .help-link-text.how {
-  background-image: url('../app/images/Zap-Icon-Grey.svg');
+  background-image: url('../images/Zap-Icon-Grey.svg');
   background-position: 18px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -10322,7 +10322,7 @@ figcaption {
 }
 
 .help-link-text.how:hover {
-  background-image: url('../app/images/Zap-Icon-White.svg');
+  background-image: url('../images/Zap-Icon-White.svg');
 }
 
 .help-link-text.docs {
@@ -10334,11 +10334,11 @@ figcaption {
 }
 
 .help-link-text.docs:hover {
-  background-image: url('../app/images/Docs-Icon-2-White.svg');
+  background-image: url('../images/Docs-Icon-2-White.svg');
 }
 
 .help-link-text.chat {
-  background-image: url('../app/images/Chat-Icon-Grey.svg');
+  background-image: url('../images/Chat-Icon-Grey.svg');
   background-position: 18px;
   background-repeat: no-repeat;
   background-size: auto 15px;
@@ -10350,11 +10350,11 @@ figcaption {
 }
 
 .help-link-text.chat:hover {
-  background-image: url('../app/images/Chat-Icon-White.svg');
+  background-image: url('../images/Chat-Icon-White.svg');
 }
 
 .help-link-text.feedback {
-  background-image: url('../app/images/Mega-Icon-Grey.svg');
+  background-image: url('../images/Mega-Icon-Grey.svg');
   background-position: 18px;
   background-repeat: no-repeat;
   background-size: auto 15px;
@@ -10366,7 +10366,7 @@ figcaption {
 }
 
 .help-link-text.feedback:hover {
-  background-image: url('../app/images/Mega-Icon-White.svg');
+  background-image: url('../images/Mega-Icon-White.svg');
 }
 
 .help-link {
@@ -10380,7 +10380,7 @@ figcaption {
 }
 
 .help-link.logout {
-  background-image: url('../app/images/Logout-Icon.svg');
+  background-image: url('../images/Logout-Icon.svg');
   background-position: 94%;
   background-repeat: no-repeat;
   background-size: 16px 16px;
@@ -10390,52 +10390,52 @@ figcaption {
 
 .help-link.logout:hover {
   background-color: #3c4146;
-  background-image: url('../app/images/Logout-Icon-1.svg');
+  background-image: url('../images/Logout-Icon-1.svg');
   border-radius: 0 0 8px 8px;
 }
 
 .help-link.docs {
-  background-image: url('../app/images/Docs-Icon-2-Grey.svg');
+  background-image: url('../images/Docs-Icon-2-Grey.svg');
   background-position: 18px;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .help-link.docs:hover {
-  background-image: url('../app/images/Docs-Icon-2-White.svg');
+  background-image: url('../images/Docs-Icon-2-White.svg');
 }
 
 .help-link.how {
-  background-image: url('../app/images/Question-Icon.svg');
+  background-image: url('../images/Question-Icon.svg');
   background-position: 17px;
   background-repeat: no-repeat;
   background-size: 17px;
 }
 
 .help-link.how:hover {
-  background-image: url('../app/images/Question-Icon-White.svg');
+  background-image: url('../images/Question-Icon-White.svg');
 }
 
 .help-link.chat {
-  background-image: url('../app/images/Chat-Icon-Grey.svg');
+  background-image: url('../images/Chat-Icon-Grey.svg');
   background-position: 17px;
   background-repeat: no-repeat;
   background-size: 16px;
 }
 
 .help-link.chat:hover {
-  background-image: url('../app/images/Chat-Icon-White.svg');
+  background-image: url('../images/Chat-Icon-White.svg');
 }
 
 .help-link.feedback {
-  background-image: url('../app/images/Mega-Icon-Grey.svg');
+  background-image: url('../images/Mega-Icon-Grey.svg');
   background-position: 18px;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .help-link.feedback:hover {
-  background-image: url('../app/images/Mega-Icon-White.svg');
+  background-image: url('../images/Mega-Icon-White.svg');
 }
 
 .help-modal-line {
@@ -10593,7 +10593,7 @@ figcaption {
 .mini-alert.orange {
   height: 20px;
   text-transform: uppercase;
-  background-image: url('../app/images/UI-icon_info_light.svg'), linear-gradient(to right, #ff7b00 5%, #8f4e12 99%);
+  background-image: url('../images/UI-icon_info_light.svg'), linear-gradient(to right, #ff7b00 5%, #8f4e12 99%);
   background-position: 94% 45%, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: auto, auto;
@@ -10610,7 +10610,7 @@ figcaption {
 
 .mini-alert.green {
   height: 20px;
-  background-image: url('../app/images/Check-Icon.svg'), linear-gradient(to right, #27ae60 5%, #1e6d4c 99%);
+  background-image: url('../images/Check-Icon.svg'), linear-gradient(to right, #27ae60 5%, #1e6d4c 99%);
   background-position: 89% 45%, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: auto, auto;
@@ -10801,7 +10801,7 @@ figcaption {
 
 .modal_config_link--wrap.right.auth {
   cursor: pointer;
-  background-image: url('../app/images/arrow-right-thin.svg');
+  background-image: url('../images/arrow-right-thin.svg');
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -10810,7 +10810,7 @@ figcaption {
 
 .modal_config_link--wrap.right.expire {
   cursor: pointer;
-  background-image: url('../app/images/arrow-up-right-line-white-1sk.svg');
+  background-image: url('../images/arrow-up-right-line-white-1sk.svg');
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -10841,7 +10841,7 @@ figcaption {
   height: 15px;
   float: left;
   cursor: default;
-  background-image: url('../app/images/copy-01-solidline-whitemix-1.5.svg');
+  background-image: url('../images/copy-01-solidline-whitemix-1.5.svg');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: auto;
@@ -10851,7 +10851,7 @@ figcaption {
 }
 
 .copy-icon-config-text.copied {
-  background-image: url('../app/images/green-check.svg');
+  background-image: url('../images/green-check.svg');
 }
 
 .proxy--icon {
@@ -10865,7 +10865,7 @@ figcaption {
 .proxy--icon.copy {
   width: 24px;
   height: 24px;
-  background-image: url('../app/images/copy-01-solidline-whitemix-1.5.svg');
+  background-image: url('../images/copy-01-solidline-whitemix-1.5.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -10873,7 +10873,7 @@ figcaption {
 }
 
 .proxy--icon.copy.copied {
-  background-image: url('../app/images/green-check.svg');
+  background-image: url('../images/green-check.svg');
 }
 
 .proxy-name-title-wrap {
@@ -10937,22 +10937,22 @@ figcaption {
 }
 
 .actions_btn.link {
-  background-image: url('../app/images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13.5px, auto;
 }
 
 .actions_btn.port {
-  background-image: url('../app/images/port_1.svg');
+  background-image: url('../images/port_1.svg');
 }
 
 .actions_btn.battery {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
 
 .actions_btn.battery.white {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 16px, auto;
@@ -10960,7 +10960,7 @@ figcaption {
 }
 
 .actions_btn.switch {
-  background-image: url('../app/images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13px, auto;
 }
 
@@ -10973,12 +10973,12 @@ figcaption {
 }
 
 .actions_btn.basic_auth {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 14px, auto;
 }
 
 .actions_btn.basic_auth.preselected {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 14px, auto;
@@ -10986,7 +10986,7 @@ figcaption {
 }
 
 .actions_btn.whitelist_auth {
-  background-image: url('../app/images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
@@ -11006,13 +11006,13 @@ figcaption {
 }
 
 .actions_btn.cancel {
-  background-image: url('../app/images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 
 .actions_btn.white {
-  background-image: url('../app/images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
+  background-image: url('../images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 12px, auto;
@@ -11122,7 +11122,7 @@ figcaption {
 .select-confirmation.orange {
   height: 20px;
   min-width: 165px;
-  background-image: url('../app/images/UI-icon_info_light.svg'), linear-gradient(to right, #ff7b00 5%, #8f4e12 99%);
+  background-image: url('../images/UI-icon_info_light.svg'), linear-gradient(to right, #ff7b00 5%, #8f4e12 99%);
   background-position: 96% 45%, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: auto, auto;
@@ -11133,7 +11133,7 @@ figcaption {
 
 .select-confirmation.green {
   height: 20px;
-  background-image: url('../app/images/Check-Icon.svg'), linear-gradient(to right, #27ae60 5%, #1e6d4c 99%);
+  background-image: url('../images/Check-Icon.svg'), linear-gradient(to right, #27ae60 5%, #1e6d4c 99%);
   background-position: 94% 45%, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: auto, auto;
@@ -11232,7 +11232,7 @@ figcaption {
   width: 100%;
   color: var(--white);
   cursor: pointer;
-  background-image: url('../app/images/proxy-rotate-icon.svg');
+  background-image: url('../images/proxy-rotate-icon.svg');
   background-position: 14px;
   background-repeat: no-repeat;
   background-size: 15px;
@@ -11245,21 +11245,21 @@ figcaption {
 }
 
 .actions-menu-text-wrap.reset {
-  background-image: url('../app/images/rotate-cw.svg');
+  background-image: url('../images/rotate-cw.svg');
   background-size: 16px;
 }
 
 .actions-menu-text-wrap.reboot {
-  background-image: url('../app/images/Power-Icon.svg');
+  background-image: url('../images/Power-Icon.svg');
   background-size: 16px;
 }
 
 .actions-menu-text-wrap.stars {
-  background-image: url('../app/images/stars-icon.svg');
+  background-image: url('../images/stars-icon.svg');
 }
 
 .actions-menu-text-wrap.copy {
-  background-image: url('../app/images/Copy-Icon.svg');
+  background-image: url('../images/Copy-Icon.svg');
   background-size: 17px;
 }
 
@@ -11830,7 +11830,7 @@ figcaption {
 
 .nick_txt_wrp.right.auth {
   cursor: pointer;
-  background-image: url('../app/images/arrow-right.svg');
+  background-image: url('../images/arrow-right.svg');
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -12037,7 +12037,7 @@ figcaption {
 }
 
 .bttm_nav--link.proxies {
-  background-image: url('../app/images/phone-01.svg');
+  background-image: url('../images/phone-01.svg');
   background-position: 10px;
   background-repeat: no-repeat;
   padding-left: 35px;
@@ -12045,42 +12045,42 @@ figcaption {
 }
 
 .bttm_nav--link.billing {
-  background-image: url('../app/images/credit-card-light1.svg');
+  background-image: url('../images/credit-card-light1.svg');
   background-position: 10px 7px;
   background-repeat: no-repeat;
   display: flex;
 }
 
 .bttm_nav--link.support {
-  background-image: url('../app/images/book-open-01_1.svg');
+  background-image: url('../images/book-open-01_1.svg');
   background-position: 19px 7px;
   background-repeat: no-repeat;
   display: flex;
 }
 
 .bttm_nav--link.settings {
-  background-image: url('../app/images/settings-light1.svg');
+  background-image: url('../images/settings-light1.svg');
   background-position: 19px 6px;
   background-repeat: no-repeat;
   display: flex;
 }
 
 .bttm_nav--link.add {
-  background-image: url('../app/images/plus-light1.svg');
+  background-image: url('../images/plus-light1.svg');
   background-position: 10px 7px;
   background-repeat: no-repeat;
   display: flex;
 }
 
 .bttm_nav--link.wallet {
-  background-image: url('../app/images/wallet-light1.svg');
+  background-image: url('../images/wallet-light1.svg');
   background-position: 10px 7px;
   background-repeat: no-repeat;
   display: flex;
 }
 
 .bttm_nav--link.allocate {
-  background-image: url('../app/images/clock-plus-light1.svg');
+  background-image: url('../images/clock-plus-light1.svg');
   background-position: 10px 7px;
   background-repeat: no-repeat;
   display: flex;
@@ -12155,7 +12155,7 @@ figcaption {
 }
 
 .b-modal-nav-link.proxies {
-  background-image: url('../app/images/phone-01.svg');
+  background-image: url('../images/phone-01.svg');
   background-position: 10px;
   background-repeat: no-repeat;
   padding-left: 35px;
@@ -12163,28 +12163,28 @@ figcaption {
 }
 
 .b-modal-nav-link.billing {
-  background-image: url('../app/images/credit-card-02.svg');
+  background-image: url('../images/credit-card-02.svg');
   background-position: 10px 7px;
   background-repeat: no-repeat;
   display: flex;
 }
 
 .b-modal-nav-link.support {
-  background-image: url('../app/images/book-open-01.svg');
+  background-image: url('../images/book-open-01.svg');
   background-position: 10px 7px;
   background-repeat: no-repeat;
   display: flex;
 }
 
 .b-modal-nav-link.settings {
-  background-image: url('../app/images/settings-02.svg');
+  background-image: url('../images/settings-02.svg');
   background-position: 10px 6.5px;
   background-repeat: no-repeat;
   display: flex;
 }
 
 .b-modal-nav-link.manage-exp {
-  background-image: url('../app/images/clock-plus-light1.svg');
+  background-image: url('../images/clock-plus-light1.svg');
   background-position: 10px 6px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -12193,7 +12193,7 @@ figcaption {
 
 .b-modal-nav-link.fund-wallet {
   cursor: default;
-  background-image: url('../app/images/wallet-light1.svg');
+  background-image: url('../images/wallet-light1.svg');
   background-position: 10px 6px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -12201,7 +12201,7 @@ figcaption {
 }
 
 .b-modal-nav-link.add-proxy {
-  background-image: url('../app/images/plus-light1.svg');
+  background-image: url('../images/plus-light1.svg');
   background-position: 10px 6px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -12258,7 +12258,7 @@ figcaption {
   float: left;
   color: #fff;
   text-transform: uppercase;
-  background-image: url('../app/images/elipse-grey.svg');
+  background-image: url('../images/elipse-grey.svg');
   background-position: 0 66%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -12276,7 +12276,7 @@ figcaption {
 }
 
 .ind_det.blue {
-  background-image: url('../app/images/elipse-blue-new.svg');
+  background-image: url('../images/elipse-blue-new.svg');
   background-position: 0 66%;
 }
 
@@ -12289,14 +12289,14 @@ figcaption {
 }
 
 .ind_det.green {
-  background-image: url('../app/images/elipse-green.svg');
+  background-image: url('../images/elipse-green.svg');
   background-position: 0 66%;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .ind_det.orange {
-  background-image: url('../app/images/elipse-orange-new.svg');
+  background-image: url('../images/elipse-orange-new.svg');
   background-position: 0 66%;
 }
 
@@ -12314,7 +12314,7 @@ figcaption {
 
 .ind_det.red {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('../app/images/elipse-red.svg');
+  background-image: url('../images/elipse-red.svg');
 }
 
 .ind_det.none {
@@ -12330,7 +12330,7 @@ figcaption {
 }
 
 .ind_det.green_infinity {
-  background-image: url('../app/images/elipse-green.svg'), url('../app/images/infinity-small.svg');
+  background-image: url('../images/elipse-green.svg'), url('../images/infinity-small.svg');
   background-position: 0 66%, 14px -2px;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, 14px;
@@ -12338,7 +12338,7 @@ figcaption {
 
 .ind_det.pink {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('../app/images/elipse-pink-v2.svg');
+  background-image: url('../images/elipse-pink-v2.svg');
 }
 
 .prx_crd_det_grid {
@@ -12795,7 +12795,7 @@ figcaption {
   height: 16px;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  background-image: url('../app/images/filter-lines.svg');
+  background-image: url('../images/filter-lines.svg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -12806,11 +12806,11 @@ figcaption {
 }
 
 .util_btn_icon.filter {
-  background-image: url('../app/images/filter-funnel-01.svg');
+  background-image: url('../images/filter-funnel-01.svg');
 }
 
 .util_btn_icon.sort {
-  background-image: url('../app/images/switch-vertical-01.svg');
+  background-image: url('../images/switch-vertical-01.svg');
 }
 
 .mod_ind_wrp {
@@ -12882,7 +12882,7 @@ figcaption {
 }
 
 .actions_btn_green:hover {
-  background-image: url('../app/images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .14), rgba(255, 255, 255, .14));
+  background-image: url('../images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .14), rgba(255, 255, 255, .14));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 12px, auto;
@@ -12890,7 +12890,7 @@ figcaption {
 
 .actions_btn_green.remove {
   float: right;
-  background-image: url('../app/images/trash-03.svg'), linear-gradient(#ff1b1b, #ff2323);
+  background-image: url('../images/trash-03.svg'), linear-gradient(#ff1b1b, #ff2323);
   background-position: 10px 55%, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 15px, auto;
@@ -12898,33 +12898,33 @@ figcaption {
 }
 
 .actions_btn_green.remove:hover {
-  background-image: url('../app/images/trash-03.svg'), linear-gradient(#ff3636, #ff4242);
+  background-image: url('../images/trash-03.svg'), linear-gradient(#ff3636, #ff4242);
   background-position: 10px 55%, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 15px, auto;
 }
 
 .actions_btn_green.spin {
-  background-image: url('../app/images/refresh-cw-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/refresh-cw-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
 }
 
 .actions_btn_green.link {
-  background-image: url('../app/images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13.5px, auto;
 }
 
 .actions_btn_green.port {
-  background-image: url('../app/images/port_1.svg');
+  background-image: url('../images/port_1.svg');
 }
 
 .actions_btn_green.battery {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
 
 .actions_btn_green.battery.white {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 16px, auto;
@@ -12932,31 +12932,31 @@ figcaption {
 }
 
 .actions_btn_green.switch {
-  background-image: url('../app/images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13px, auto;
 }
 
 .actions_btn_green.report {
-  background-image: url('../app/images/message-alert-square.svg'), linear-gradient(#f80, #ff9a16);
+  background-image: url('../images/message-alert-square.svg'), linear-gradient(#f80, #ff9a16);
   background-size: 16px, auto;
 }
 
 .actions_btn_green.report:hover {
-  background-image: url('../app/images/message-alert-square.svg'), linear-gradient(#ff9b29, #ffa125);
+  background-image: url('../images/message-alert-square.svg'), linear-gradient(#ff9b29, #ffa125);
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 16px, auto;
 }
 
 .actions_btn_green.basic_auth {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../app/images/passcode-lock.svg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../images/passcode-lock.svg');
   background-position: 0 0, 10px;
   background-repeat: repeat, no-repeat;
   background-size: auto, 14px;
 }
 
 .actions_btn_green.whitelist_auth {
-  background-image: url('../app/images/signal-02.svg'), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  background-image: url('../images/signal-02.svg'), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 16px, auto;
@@ -12964,25 +12964,25 @@ figcaption {
 }
 
 .actions_btn_green.confirm {
-  background-image: url('../app/images/check.svg'), linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .25));
+  background-image: url('../images/check.svg'), linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .25));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 12px, auto;
 }
 
 .actions_btn_green.confirm:hover {
-  background-image: url('../app/images/check.svg'), linear-gradient(rgba(255, 255, 255, .14), rgba(255, 255, 255, .14));
+  background-image: url('../images/check.svg'), linear-gradient(rgba(255, 255, 255, .14), rgba(255, 255, 255, .14));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 12px, auto;
 }
 
 .actions_btn_green.cancel {
-  background-image: url('../app/images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
 }
 
 .actions_btn_green.white {
-  background-image: url('../app/images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
+  background-image: url('../images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 12px, auto;
@@ -13188,7 +13188,7 @@ figcaption {
   height: 15px;
   float: left;
   clear: none;
-  background-image: url('../app/images/alert-triangle-red.svg');
+  background-image: url('../images/alert-triangle-red.svg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -13205,7 +13205,7 @@ figcaption {
 }
 
 .alert_icon_wrp.suc {
-  background-image: url('../app/images/check-circle-green-str1.5.svg');
+  background-image: url('../images/check-circle-green-str1.5.svg');
 }
 
 .input_err_wrp {
@@ -13277,7 +13277,7 @@ figcaption {
   width: 14px;
   height: 14px;
   float: left;
-  background-image: url('../app/images/check.svg');
+  background-image: url('../images/check.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -13286,7 +13286,7 @@ figcaption {
 
 .btn_icon.confirm {
   float: left;
-  background-image: url('../app/images/check.svg');
+  background-image: url('../images/check.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -13294,7 +13294,7 @@ figcaption {
 
 .btn_icon.spin {
   float: left;
-  background-image: url('../app/images/refresh-cw-01-btn.svg');
+  background-image: url('../images/refresh-cw-01-btn.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -13304,27 +13304,27 @@ figcaption {
 .btn_icon.link {
   width: 13px;
   height: 13px;
-  background-image: url('../app/images/link-01.svg');
+  background-image: url('../images/link-01.svg');
   background-size: auto;
 }
 
 .btn_icon.switch {
   width: 14px;
   height: 14px;
-  background-image: url('../app/images/switch-horizontal-01-btn.svg');
+  background-image: url('../images/switch-horizontal-01-btn.svg');
 }
 
 .btn_icon.battery {
   width: 18px;
   height: 14px;
-  background-image: url('../app/images/battery-charging-01.svg');
+  background-image: url('../images/battery-charging-01.svg');
   background-size: auto;
   margin-right: 4px;
 }
 
 .btn_icon.back {
   float: left;
-  background-image: url('../app/images/arrow-right-thin.svg');
+  background-image: url('../images/arrow-right-thin.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -13334,7 +13334,7 @@ figcaption {
 
 .btn_icon.feedback {
   float: left;
-  background-image: url('../app/images/message-alert-square.svg');
+  background-image: url('../images/message-alert-square.svg');
   background-repeat: no-repeat;
   background-size: 15px 15px;
   align-items: center;
@@ -13342,25 +13342,25 @@ figcaption {
 }
 
 .btn_icon.trash {
-  background-image: url('../app/images/trash-03.svg');
+  background-image: url('../images/trash-03.svg');
   background-size: 15px 15px;
 }
 
 .btn_icon.pwrd {
   width: 20px;
   height: 18px;
-  background-image: url('../app/images/passcode-lock.svg');
+  background-image: url('../images/passcode-lock.svg');
 }
 
 .btn_icon.signal {
   width: 20px;
   height: 18px;
-  background-image: url('../app/images/signal-02.svg');
+  background-image: url('../images/signal-02.svg');
 }
 
 .btn_icon.cancel {
   float: left;
-  background-image: url('../app/images/slash-circle-01.svg');
+  background-image: url('../images/slash-circle-01.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -13371,7 +13371,7 @@ figcaption {
 .btn_icon.reveal {
   width: 18px;
   height: 14px;
-  background-image: url('../app/images/eye-solidline-light-1.5.svg');
+  background-image: url('../images/eye-solidline-light-1.5.svg');
   background-size: auto;
   margin-right: 4px;
 }
@@ -13379,7 +13379,7 @@ figcaption {
 .btn_icon.dice {
   width: 18px;
   height: 14px;
-  background-image: url('../app/images/dice-3.svg');
+  background-image: url('../images/dice-3.svg');
   background-size: auto;
   margin-right: 4px;
 }
@@ -13387,7 +13387,7 @@ figcaption {
 .btn_icon.copy1 {
   width: 18px;
   height: 14px;
-  background-image: url('../app/images/copy-01-solidline-greywhite-1.5.svg');
+  background-image: url('../images/copy-01-solidline-greywhite-1.5.svg');
   background-size: auto;
   margin-right: 4px;
 }
@@ -13401,7 +13401,7 @@ figcaption {
 
 .btn_icon.swap {
   float: left;
-  background-image: url('../app/images/check.svg');
+  background-image: url('../images/check.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -13410,19 +13410,19 @@ figcaption {
 .btn_icon.forum {
   width: 18px;
   height: 14px;
-  background-image: url('../app/images/share-03.svg');
+  background-image: url('../images/share-03.svg');
   background-size: auto;
   margin-right: 4px;
 }
 
 .btn_icon.external {
-  background-image: url('../app/images/share-03.svg');
+  background-image: url('../images/share-03.svg');
   margin-right: 8px;
 }
 
 .btn_icon.revert {
   float: left;
-  background-image: url('../app/images/flip-backward.svg');
+  background-image: url('../images/flip-backward.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -13442,7 +13442,7 @@ figcaption {
   height: 15px;
   float: left;
   cursor: pointer;
-  background-image: url('../app/images/eye-solidline-light-1.5.svg');
+  background-image: url('../images/eye-solidline-light-1.5.svg');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: auto;
@@ -13474,7 +13474,7 @@ figcaption {
 
 .cfg_load_ico.confirm {
   float: left;
-  background-image: url('../app/images/check.svg');
+  background-image: url('../images/check.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -13482,7 +13482,7 @@ figcaption {
 
 .cfg_load_ico.spin {
   float: left;
-  background-image: url('../app/images/refresh-cw-01-btn.svg');
+  background-image: url('../images/refresh-cw-01-btn.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -13492,24 +13492,24 @@ figcaption {
 .cfg_load_ico.link {
   width: 13px;
   height: 13px;
-  background-image: url('../app/images/link-01-line-white-1.5.svg');
+  background-image: url('../images/link-01-line-white-1.5.svg');
 }
 
 .cfg_load_ico.switch {
   width: 14px;
   height: 14px;
-  background-image: url('../app/images/switch-horizontal-01-btn.svg');
+  background-image: url('../images/switch-horizontal-01-btn.svg');
 }
 
 .cfg_load_ico.battery {
   width: 19px;
   height: 14px;
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg');
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg');
 }
 
 .cfg_load_ico.cancel {
   float: left;
-  background-image: url('../app/images/arrow-right-thin.svg');
+  background-image: url('../images/arrow-right-thin.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -13519,7 +13519,7 @@ figcaption {
 
 .cfg_load_ico.feedback {
   float: left;
-  background-image: url('../app/images/message-alert-square.svg');
+  background-image: url('../images/message-alert-square.svg');
   background-repeat: no-repeat;
   background-size: 15px 15px;
   align-items: center;
@@ -13527,20 +13527,20 @@ figcaption {
 }
 
 .cfg_load_ico.trash {
-  background-image: url('../app/images/trash-03.svg');
+  background-image: url('../images/trash-03.svg');
   background-size: 15px 15px;
 }
 
 .cfg_load_ico.pwrd {
   width: 20px;
   height: 18px;
-  background-image: url('../app/images/passcode-lock.svg');
+  background-image: url('../images/passcode-lock.svg');
 }
 
 .cfg_load_ico.signal {
   width: 20px;
   height: 18px;
-  background-image: url('../app/images/signal-02.svg');
+  background-image: url('../images/signal-02.svg');
 }
 
 .cfg_load_ico.dwn {
@@ -13590,7 +13590,7 @@ figcaption {
 }
 
 .pg_hdr_close_dvdr {
-  background-image: url('../app/images/Line-2_1.svg');
+  background-image: url('../images/Line-2_1.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -13606,7 +13606,7 @@ figcaption {
   width: 14px;
   height: 14px;
   cursor: pointer;
-  background-image: url('../app/images/x-close.svg');
+  background-image: url('../images/x-close.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -13952,7 +13952,7 @@ figcaption {
 }
 
 .sect_crd_info_ico.required {
-  background-image: url('../app/images/alert-triangle.svg');
+  background-image: url('../images/alert-triangle.svg');
 }
 
 .sect_crd_det_grid_c3 {
@@ -14099,22 +14099,22 @@ figcaption {
 }
 
 .allo_action_btn.link {
-  background-image: url('../app/images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13.5px, auto;
 }
 
 .allo_action_btn.port {
-  background-image: url('../app/images/port_1.svg');
+  background-image: url('../images/port_1.svg');
 }
 
 .allo_action_btn.battery {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
 
 .allo_action_btn.battery.white {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 16px, auto;
@@ -14122,7 +14122,7 @@ figcaption {
 }
 
 .allo_action_btn.switch {
-  background-image: url('../app/images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13px, auto;
 }
 
@@ -14135,12 +14135,12 @@ figcaption {
 }
 
 .allo_action_btn.basic_auth {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 14px, auto;
 }
 
 .allo_action_btn.basic_auth.preselected {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 14px, auto;
@@ -14148,7 +14148,7 @@ figcaption {
 }
 
 .allo_action_btn.whitelist_auth {
-  background-image: url('../app/images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
@@ -14165,7 +14165,7 @@ figcaption {
 }
 
 .allo_action_btn.cancel {
-  background-image: url('../app/images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
 }
@@ -14242,7 +14242,7 @@ figcaption {
   width: 16px;
   height: 16px;
   cursor: pointer;
-  background-image: url('../app/images/x.svg');
+  background-image: url('../images/x.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -14494,22 +14494,22 @@ figcaption {
 }
 
 .checkout_btn.link {
-  background-image: url('../app/images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13.5px, auto;
 }
 
 .checkout_btn.port {
-  background-image: url('../app/images/port_1.svg');
+  background-image: url('../images/port_1.svg');
 }
 
 .checkout_btn.battery {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
 
 .checkout_btn.battery.white {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 16px, auto;
@@ -14517,7 +14517,7 @@ figcaption {
 }
 
 .checkout_btn.switch {
-  background-image: url('../app/images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13px, auto;
 }
 
@@ -14530,12 +14530,12 @@ figcaption {
 }
 
 .checkout_btn.basic_auth {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 14px, auto;
 }
 
 .checkout_btn.basic_auth.preselected {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 14px, auto;
@@ -14543,7 +14543,7 @@ figcaption {
 }
 
 .checkout_btn.whitelist_auth {
-  background-image: url('../app/images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
@@ -14560,13 +14560,13 @@ figcaption {
 }
 
 .checkout_btn.cancel {
-  background-image: url('../app/images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 
 .checkout_btn.white {
-  background-image: url('../app/images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
+  background-image: url('../images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 12px, auto;
@@ -14605,7 +14605,7 @@ figcaption {
   width: 14px;
   height: 14px;
   float: left;
-  background-image: url('../app/images/check.svg');
+  background-image: url('../images/check.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -14614,7 +14614,7 @@ figcaption {
 
 .checkout_btn_ico.confirm {
   float: left;
-  background-image: url('../app/images/check.svg');
+  background-image: url('../images/check.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -14622,7 +14622,7 @@ figcaption {
 
 .checkout_btn_ico.spin {
   float: left;
-  background-image: url('../app/images/refresh-cw-01-btn.svg');
+  background-image: url('../images/refresh-cw-01-btn.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -14632,27 +14632,27 @@ figcaption {
 .checkout_btn_ico.link {
   width: 13px;
   height: 13px;
-  background-image: url('../app/images/link-01.svg');
+  background-image: url('../images/link-01.svg');
   background-size: auto;
 }
 
 .checkout_btn_ico.switch {
   width: 14px;
   height: 14px;
-  background-image: url('../app/images/switch-horizontal-01-btn.svg');
+  background-image: url('../images/switch-horizontal-01-btn.svg');
 }
 
 .checkout_btn_ico.battery {
   width: 18px;
   height: 14px;
-  background-image: url('../app/images/battery-charging-01.svg');
+  background-image: url('../images/battery-charging-01.svg');
   background-size: auto;
   margin-right: 4px;
 }
 
 .checkout_btn_ico.cancel {
   float: left;
-  background-image: url('../app/images/arrow-right-thin.svg');
+  background-image: url('../images/arrow-right-thin.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -14662,7 +14662,7 @@ figcaption {
 
 .checkout_btn_ico.feedback {
   float: left;
-  background-image: url('../app/images/message-alert-square.svg');
+  background-image: url('../images/message-alert-square.svg');
   background-repeat: no-repeat;
   background-size: 15px 15px;
   align-items: center;
@@ -14670,25 +14670,25 @@ figcaption {
 }
 
 .checkout_btn_ico.trash {
-  background-image: url('../app/images/trash-03.svg');
+  background-image: url('../images/trash-03.svg');
   background-size: 15px 15px;
 }
 
 .checkout_btn_ico.pwrd {
   width: 20px;
   height: 18px;
-  background-image: url('../app/images/passcode-lock.svg');
+  background-image: url('../images/passcode-lock.svg');
 }
 
 .checkout_btn_ico.signal {
   width: 20px;
   height: 18px;
-  background-image: url('../app/images/signal-02.svg');
+  background-image: url('../images/signal-02.svg');
 }
 
 .checkout_btn_ico.continue {
   float: left;
-  background-image: url('../app/images/arrow-right-thin.svg');
+  background-image: url('../images/arrow-right-thin.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -14700,7 +14700,7 @@ figcaption {
 
 .checkout_btn_ico.external {
   float: left;
-  background-image: url('../app/images/arrow-up-right-line-white-1sk.svg');
+  background-image: url('../images/arrow-up-right-line-white-1sk.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -15053,35 +15053,35 @@ figcaption {
 }
 
 .qm_item_ico.renew {
-  background-image: url('../app/images/clock-fast-forward.svg');
+  background-image: url('../images/clock-fast-forward.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .qm_item_ico.every {
-  background-image: url('../app/images/refresh-cw-04.svg');
+  background-image: url('../images/refresh-cw-04.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .qm_item_ico.swap {
-  background-image: url('../app/images/switch-horizontal-01-btn.svg');
+  background-image: url('../images/switch-horizontal-01-btn.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .qm_item_ico.remove {
-  background-image: url('../app/images/trash-03-1.svg');
+  background-image: url('../images/trash-03-1.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .qm_item_ico.revert {
-  background-image: url('../app/images/flip-backward.svg');
+  background-image: url('../images/flip-backward.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -15182,7 +15182,7 @@ figcaption {
   z-index: 9;
   width: 14px;
   height: 14px;
-  background-image: url('../app/images/check.svg');
+  background-image: url('../images/check.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -15194,7 +15194,7 @@ figcaption {
 }
 
 .qm_auto_renew_check_ico:hover {
-  background-image: url('../app/images/check-standard-green.svg');
+  background-image: url('../images/check-standard-green.svg');
 }
 
 .alert_wrp_small {
@@ -15268,7 +15268,7 @@ figcaption {
 }
 
 .err_alert_ind_small.green {
-  background-image: url('../app/images/green-check-w18.svg');
+  background-image: url('../images/green-check-w18.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -15756,22 +15756,22 @@ figcaption {
 }
 
 .new_action_btn.link {
-  background-image: url('../app/images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13.5px, auto;
 }
 
 .new_action_btn.port {
-  background-image: url('../app/images/port_1.svg');
+  background-image: url('../images/port_1.svg');
 }
 
 .new_action_btn.battery {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
 
 .new_action_btn.battery.white {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 16px, auto;
@@ -15779,7 +15779,7 @@ figcaption {
 }
 
 .new_action_btn.switch {
-  background-image: url('../app/images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13px, auto;
 }
 
@@ -15792,12 +15792,12 @@ figcaption {
 }
 
 .new_action_btn.basic_auth {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 14px, auto;
 }
 
 .new_action_btn.basic_auth.preselected {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 14px, auto;
@@ -15805,7 +15805,7 @@ figcaption {
 }
 
 .new_action_btn.whitelist_auth {
-  background-image: url('../app/images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
@@ -15822,7 +15822,7 @@ figcaption {
 }
 
 .new_action_btn.cancel {
-  background-image: url('../app/images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
 }
@@ -16157,7 +16157,7 @@ figcaption {
   width: 30px;
   height: 30px;
   background-color: #282829;
-  background-image: url('../app/images/Cryptocurrency-03.svg');
+  background-image: url('../images/Cryptocurrency-03.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -16168,58 +16168,58 @@ figcaption {
 }
 
 .sect_crd_ico.card {
-  background-image: url('../app/images/Credit-Card-Shield.svg');
+  background-image: url('../images/Credit-Card-Shield.svg');
   background-position: 54% 46%;
 }
 
 .sect_crd_ico.plus {
-  background-image: url('../app/images/plus-sect-crd-01.svg');
+  background-image: url('../images/plus-sect-crd-01.svg');
 }
 
 .sect_crd_ico.click {
-  background-image: url('../app/images/cursor-click-01.svg');
+  background-image: url('../images/cursor-click-01.svg');
   background-position: 54% 46%;
 }
 
 .sect_crd_ico.dash {
-  background-image: url('../app/images/laptop-01.svg');
+  background-image: url('../images/laptop-01.svg');
   background-position: 54% 46%;
 }
 
 .sect_crd_ico.help {
-  background-image: url('../app/images/file-question-02.svg');
+  background-image: url('../images/file-question-02.svg');
   background-position: 54% 46%;
 }
 
 .sect_crd_ico.support {
-  background-image: url('../app/images/message-text-square-02.svg');
+  background-image: url('../images/message-text-square-02.svg');
   background-position: 50% 50%;
 }
 
 .sect_crd_ico.api {
-  background-image: url('../app/images/terminal-square.svg');
+  background-image: url('../images/terminal-square.svg');
   background-position: 54% 46%;
 }
 
 .sect_crd_ico.time {
-  background-image: url('../app/images/clock-plus-1.svg');
+  background-image: url('../images/clock-plus-1.svg');
 }
 
 .sect_crd_ico.funds {
-  background-image: url('../app/images/wallet-02-1.svg');
+  background-image: url('../images/wallet-02-1.svg');
 }
 
 .sect_crd_ico.video {
-  background-image: url('../app/images/play.svg');
+  background-image: url('../images/play.svg');
   background-position: 66% 46%;
 }
 
 .sect_crd_ico.file {
-  background-image: url('../app/images/file-02.svg');
+  background-image: url('../images/file-02.svg');
 }
 
 .sect_crd_ico.percent {
-  background-image: url('../app/images/percent-line.svg');
+  background-image: url('../images/percent-line.svg');
 }
 
 .go_back_link {
@@ -16254,22 +16254,22 @@ figcaption {
 }
 
 .go_back_link.link {
-  background-image: url('../app/images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13.5px, auto;
 }
 
 .go_back_link.port {
-  background-image: url('../app/images/port_1.svg');
+  background-image: url('../images/port_1.svg');
 }
 
 .go_back_link.battery {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
 
 .go_back_link.battery.white {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 16px, auto;
@@ -16277,7 +16277,7 @@ figcaption {
 }
 
 .go_back_link.switch {
-  background-image: url('../app/images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13px, auto;
 }
 
@@ -16290,12 +16290,12 @@ figcaption {
 }
 
 .go_back_link.basic_auth {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 14px, auto;
 }
 
 .go_back_link.basic_auth.preselected {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 14px, auto;
@@ -16303,7 +16303,7 @@ figcaption {
 }
 
 .go_back_link.whitelist_auth {
-  background-image: url('../app/images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
@@ -16321,13 +16321,13 @@ figcaption {
 }
 
 .go_back_link.cancel {
-  background-image: url('../app/images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 
 .go_back_link.white {
-  background-image: url('../app/images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
+  background-image: url('../images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 12px, auto;
@@ -16409,7 +16409,7 @@ figcaption {
 .bgico {
   width: 400px;
   height: 350px;
-  background-image: url('../app/images/processing-payment-bgicon-light1.svg');
+  background-image: url('../images/processing-payment-bgicon-light1.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -16419,7 +16419,7 @@ figcaption {
 }
 
 .bgico.creatingacct {
-  background-image: url('../app/images/bgico-creating-account-light1.svg');
+  background-image: url('../images/bgico-creating-account-light1.svg');
 }
 
 .bgico_tit {
@@ -16565,7 +16565,7 @@ figcaption {
 }
 
 .top_nav--link.proxies {
-  background-image: url('../app/images/phone-01.svg');
+  background-image: url('../images/phone-01.svg');
   background-position: 10px;
   background-repeat: no-repeat;
   padding-left: 35px;
@@ -16573,28 +16573,28 @@ figcaption {
 }
 
 .top_nav--link.billing {
-  background-image: url('../app/images/credit-card-02.svg');
+  background-image: url('../images/credit-card-02.svg');
   background-position: 10px 7px;
   background-repeat: no-repeat;
   display: flex;
 }
 
 .top_nav--link.support {
-  background-image: url('../app/images/book-open-01.svg');
+  background-image: url('../images/book-open-01.svg');
   background-position: 10px 7px;
   background-repeat: no-repeat;
   display: flex;
 }
 
 .top_nav--link.settings {
-  background-image: url('../app/images/settings-02.svg');
+  background-image: url('../images/settings-02.svg');
   background-position: 10px 6.5px;
   background-repeat: no-repeat;
   display: flex;
 }
 
 .top_nav--link.dev {
-  background-image: url('../app/images/code-square-light1.svg');
+  background-image: url('../images/code-square-light1.svg');
   background-position: 19px 6px;
   background-repeat: no-repeat;
   background-size: 15px;
@@ -16602,7 +16602,7 @@ figcaption {
 }
 
 .top_nav--link.back {
-  background-image: url('../app/images/arrow-left-thin.svg');
+  background-image: url('../images/arrow-left-thin.svg');
   background-position: 19px 6px;
   background-repeat: no-repeat;
   background-size: 15px;
@@ -16610,7 +16610,7 @@ figcaption {
 }
 
 .top_nav--link.start {
-  background-image: url('../app/images/home-smile-alt1.svg');
+  background-image: url('../images/home-smile-alt1.svg');
   background-position: 19px 6px;
   background-repeat: no-repeat;
   background-size: 15px;
@@ -16618,7 +16618,7 @@ figcaption {
 }
 
 .top_nav--link.add {
-  background-image: url('../app/images/plus-light1.svg');
+  background-image: url('../images/plus-light1.svg');
   background-position: 19px 6px;
   background-repeat: no-repeat;
   background-size: 15px;
@@ -16626,7 +16626,7 @@ figcaption {
 }
 
 .top_nav--link.wallet {
-  background-image: url('../app/images/wallet-light1.svg');
+  background-image: url('../images/wallet-light1.svg');
   background-position: 19px 6px;
   background-repeat: no-repeat;
   background-size: 15px;
@@ -16634,7 +16634,7 @@ figcaption {
 }
 
 .top_nav--link.allocate {
-  background-image: url('../app/images/clock-plus-light1.svg');
+  background-image: url('../images/clock-plus-light1.svg');
   background-position: 19px 6px;
   background-repeat: no-repeat;
   background-size: 14px;
@@ -16642,7 +16642,7 @@ figcaption {
 }
 
 .top_nav--link.account {
-  background-image: url('../app/images/user-02.svg');
+  background-image: url('../images/user-02.svg');
   background-position: 20px 6px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -16650,7 +16650,7 @@ figcaption {
 }
 
 .top_nav--link.member {
-  background-image: url('../app/images/percent-02.svg');
+  background-image: url('../images/percent-02.svg');
   background-position: 20px 6px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -16658,7 +16658,7 @@ figcaption {
 }
 
 .top_nav--link.member.w--current {
-  background-image: url('../app/images/percent-02.svg');
+  background-image: url('../images/percent-02.svg');
 }
 
 .top_nav_link--text {
@@ -17020,22 +17020,22 @@ figcaption {
 }
 
 .sb_btn.link {
-  background-image: url('../app/images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13.5px, auto;
 }
 
 .sb_btn.port {
-  background-image: url('../app/images/port_1.svg');
+  background-image: url('../images/port_1.svg');
 }
 
 .sb_btn.battery {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
 
 .sb_btn.battery.white {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 16px, auto;
@@ -17043,7 +17043,7 @@ figcaption {
 }
 
 .sb_btn.switch {
-  background-image: url('../app/images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13px, auto;
 }
 
@@ -17056,12 +17056,12 @@ figcaption {
 }
 
 .sb_btn.basic_auth {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 14px, auto;
 }
 
 .sb_btn.basic_auth.preselected {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 14px, auto;
@@ -17069,7 +17069,7 @@ figcaption {
 }
 
 .sb_btn.whitelist_auth {
-  background-image: url('../app/images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
@@ -17086,13 +17086,13 @@ figcaption {
 }
 
 .sb_btn.cancel {
-  background-image: url('../app/images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 
 .sb_btn.white {
-  background-image: url('../app/images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
+  background-image: url('../images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 12px, auto;
@@ -17141,7 +17141,7 @@ figcaption {
   width: 14px;
   height: 14px;
   float: left;
-  background-image: url('../app/images/check.svg');
+  background-image: url('../images/check.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -17150,7 +17150,7 @@ figcaption {
 
 .sb_btn_ico.confirm {
   float: left;
-  background-image: url('../app/images/check.svg');
+  background-image: url('../images/check.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -17158,7 +17158,7 @@ figcaption {
 
 .sb_btn_ico.spin {
   float: left;
-  background-image: url('../app/images/refresh-cw-01-btn.svg');
+  background-image: url('../images/refresh-cw-01-btn.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -17168,27 +17168,27 @@ figcaption {
 .sb_btn_ico.link {
   width: 13px;
   height: 13px;
-  background-image: url('../app/images/link-01.svg');
+  background-image: url('../images/link-01.svg');
   background-size: auto;
 }
 
 .sb_btn_ico.switch {
   width: 14px;
   height: 14px;
-  background-image: url('../app/images/switch-horizontal-01-btn.svg');
+  background-image: url('../images/switch-horizontal-01-btn.svg');
 }
 
 .sb_btn_ico.battery {
   width: 18px;
   height: 14px;
-  background-image: url('../app/images/battery-charging-01.svg');
+  background-image: url('../images/battery-charging-01.svg');
   background-size: auto;
   margin-right: 4px;
 }
 
 .sb_btn_ico.cancel {
   float: left;
-  background-image: url('../app/images/arrow-right-thin.svg');
+  background-image: url('../images/arrow-right-thin.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -17198,7 +17198,7 @@ figcaption {
 
 .sb_btn_ico.feedback {
   float: left;
-  background-image: url('../app/images/message-alert-square.svg');
+  background-image: url('../images/message-alert-square.svg');
   background-repeat: no-repeat;
   background-size: 15px 15px;
   align-items: center;
@@ -17206,25 +17206,25 @@ figcaption {
 }
 
 .sb_btn_ico.trash {
-  background-image: url('../app/images/trash-03.svg');
+  background-image: url('../images/trash-03.svg');
   background-size: 15px 15px;
 }
 
 .sb_btn_ico.pwrd {
   width: 20px;
   height: 18px;
-  background-image: url('../app/images/passcode-lock.svg');
+  background-image: url('../images/passcode-lock.svg');
 }
 
 .sb_btn_ico.signal {
   width: 20px;
   height: 18px;
-  background-image: url('../app/images/signal-02.svg');
+  background-image: url('../images/signal-02.svg');
 }
 
 .sb_btn_ico.continue {
   float: left;
-  background-image: url('../app/images/arrow-right-thin.svg');
+  background-image: url('../images/arrow-right-thin.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -17236,7 +17236,7 @@ figcaption {
 
 .sb_btn_ico.external {
   float: left;
-  background-image: url('../app/images/arrow-up-right-line-white-1sk.svg');
+  background-image: url('../images/arrow-up-right-line-white-1sk.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -17248,7 +17248,7 @@ figcaption {
 
 .sb_btn_ico.dash {
   float: left;
-  background-image: url('../app/images/dashboard--white-line.svg');
+  background-image: url('../images/dashboard--white-line.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -17595,22 +17595,22 @@ figcaption {
 }
 
 .pg_hdr_btn.link {
-  background-image: url('../app/images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13.5px, auto;
 }
 
 .pg_hdr_btn.port {
-  background-image: url('../app/images/port_1.svg');
+  background-image: url('../images/port_1.svg');
 }
 
 .pg_hdr_btn.battery {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
 
 .pg_hdr_btn.battery.white {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 16px, auto;
@@ -17618,7 +17618,7 @@ figcaption {
 }
 
 .pg_hdr_btn.switch {
-  background-image: url('../app/images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13px, auto;
 }
 
@@ -17631,12 +17631,12 @@ figcaption {
 }
 
 .pg_hdr_btn.basic_auth {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 14px, auto;
 }
 
 .pg_hdr_btn.basic_auth.preselected {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 14px, auto;
@@ -17644,7 +17644,7 @@ figcaption {
 }
 
 .pg_hdr_btn.whitelist_auth {
-  background-image: url('../app/images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
@@ -17662,13 +17662,13 @@ figcaption {
 }
 
 .pg_hdr_btn.cancel {
-  background-image: url('../app/images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 
 .pg_hdr_btn.white {
-  background-image: url('../app/images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
+  background-image: url('../images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 12px, auto;
@@ -17767,7 +17767,7 @@ figcaption {
 
 .prx_crd_reset_ldr.confirm {
   float: left;
-  background-image: url('../app/images/check.svg');
+  background-image: url('../images/check.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -17775,7 +17775,7 @@ figcaption {
 
 .prx_crd_reset_ldr.spin {
   float: left;
-  background-image: url('../app/images/refresh-cw-01-btn.svg');
+  background-image: url('../images/refresh-cw-01-btn.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -17785,24 +17785,24 @@ figcaption {
 .prx_crd_reset_ldr.link {
   width: 13px;
   height: 13px;
-  background-image: url('../app/images/link-01-line-white-1.5.svg');
+  background-image: url('../images/link-01-line-white-1.5.svg');
 }
 
 .prx_crd_reset_ldr.switch {
   width: 14px;
   height: 14px;
-  background-image: url('../app/images/switch-horizontal-01-btn.svg');
+  background-image: url('../images/switch-horizontal-01-btn.svg');
 }
 
 .prx_crd_reset_ldr.battery {
   width: 19px;
   height: 14px;
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg');
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg');
 }
 
 .prx_crd_reset_ldr.cancel {
   float: left;
-  background-image: url('../app/images/arrow-right-thin.svg');
+  background-image: url('../images/arrow-right-thin.svg');
   background-repeat: no-repeat;
   background-size: auto;
   align-items: center;
@@ -17812,7 +17812,7 @@ figcaption {
 
 .prx_crd_reset_ldr.feedback {
   float: left;
-  background-image: url('../app/images/message-alert-square.svg');
+  background-image: url('../images/message-alert-square.svg');
   background-repeat: no-repeat;
   background-size: 15px 15px;
   align-items: center;
@@ -17820,20 +17820,20 @@ figcaption {
 }
 
 .prx_crd_reset_ldr.trash {
-  background-image: url('../app/images/trash-03.svg');
+  background-image: url('../images/trash-03.svg');
   background-size: 15px 15px;
 }
 
 .prx_crd_reset_ldr.pwrd {
   width: 20px;
   height: 18px;
-  background-image: url('../app/images/passcode-lock.svg');
+  background-image: url('../images/passcode-lock.svg');
 }
 
 .prx_crd_reset_ldr.signal {
   width: 20px;
   height: 18px;
-  background-image: url('../app/images/signal-02.svg');
+  background-image: url('../images/signal-02.svg');
 }
 
 .prx_crd_reset_ldr.dwn {
@@ -18170,7 +18170,7 @@ figcaption {
 .swap_drop--btn {
   text-transform: uppercase;
   background-color: #2c2c2c;
-  background-image: url('../app/images/chevron-down.svg');
+  background-image: url('../images/chevron-down.svg');
   background-position: 99%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -18280,7 +18280,7 @@ figcaption {
 
 .swap_drop_grid--item.active {
   background-color: #252525;
-  background-image: url('../app/images/green-check.svg');
+  background-image: url('../images/green-check.svg');
   background-position: 10px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -18356,7 +18356,7 @@ figcaption {
 }
 
 .notice--text.blue {
-  background-image: url('../app/images/elipse-blue-new.svg');
+  background-image: url('../images/elipse-blue-new.svg');
 }
 
 .notice--text.purple {
@@ -18368,14 +18368,14 @@ figcaption {
 }
 
 .notice--text.green {
-  background-image: url('../app/images/elipse-green.svg');
+  background-image: url('../images/elipse-green.svg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .notice--text.orange {
-  background-image: url('../app/images/elipse-orange-new.svg');
+  background-image: url('../images/elipse-orange-new.svg');
 }
 
 .notice--text.red {
@@ -18392,7 +18392,7 @@ figcaption {
 
 .notice--text.red {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('../app/images/elipse-red.svg');
+  background-image: url('../images/elipse-red.svg');
 }
 
 .notice--text.none {
@@ -18411,7 +18411,7 @@ figcaption {
 }
 
 .notice--text.green_infinity {
-  background-image: url('../app/images/elipse-green.svg'), url('../app/images/infinity-small.svg');
+  background-image: url('../images/elipse-green.svg'), url('../images/infinity-small.svg');
   background-position: 0%, 14px 32%;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, 14px;
@@ -18419,7 +18419,7 @@ figcaption {
 
 .notice--text.pink {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('../app/images/elipse-pink-v2.svg');
+  background-image: url('../images/elipse-pink-v2.svg');
 }
 
 .notice_subtext--wrap {
@@ -18600,7 +18600,7 @@ figcaption {
 }
 
 .apply--text.blue {
-  background-image: url('../app/images/elipse-blue-new.svg');
+  background-image: url('../images/elipse-blue-new.svg');
 }
 
 .apply--text.purple {
@@ -18612,14 +18612,14 @@ figcaption {
 }
 
 .apply--text.green {
-  background-image: url('../app/images/elipse-green.svg');
+  background-image: url('../images/elipse-green.svg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .apply--text.orange {
-  background-image: url('../app/images/elipse-orange-new.svg');
+  background-image: url('../images/elipse-orange-new.svg');
 }
 
 .apply--text.red {
@@ -18636,7 +18636,7 @@ figcaption {
 
 .apply--text.red {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('../app/images/elipse-red.svg');
+  background-image: url('../images/elipse-red.svg');
 }
 
 .apply--text.none {
@@ -18655,7 +18655,7 @@ figcaption {
 }
 
 .apply--text.green_infinity {
-  background-image: url('../app/images/elipse-green.svg'), url('../app/images/infinity-small.svg');
+  background-image: url('../images/elipse-green.svg'), url('../images/infinity-small.svg');
   background-position: 0%, 14px 32%;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, 14px;
@@ -18663,7 +18663,7 @@ figcaption {
 
 .apply--text.pink {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('../app/images/elipse-pink-v2.svg');
+  background-image: url('../images/elipse-pink-v2.svg');
 }
 
 .mod_btn {
@@ -18722,7 +18722,7 @@ figcaption {
 
 .modal_option_check--wrap.selected {
   background-color: #2454ff;
-  background-image: url('../app/images/check.svg');
+  background-image: url('../images/check.svg');
   background-position: 50%;
   background-size: 14px 14px;
 }
@@ -18914,7 +18914,7 @@ figcaption {
 .menu_toggle--btn {
   width: 15px;
   height: 15px;
-  background-image: url('../app/images/layout-left.svg');
+  background-image: url('../images/layout-left.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 15px 15px;
@@ -19071,7 +19071,7 @@ figcaption {
 }
 
 .input_label_ind--text.blue {
-  background-image: url('../app/images/elipse-blue-new.svg');
+  background-image: url('../images/elipse-blue-new.svg');
   background-position: 0 66%;
 }
 
@@ -19084,14 +19084,14 @@ figcaption {
 }
 
 .input_label_ind--text.green {
-  background-image: url('../app/images/elipse-green.svg');
+  background-image: url('../images/elipse-green.svg');
   background-position: 0 66%;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .input_label_ind--text.orange {
-  background-image: url('../app/images/elipse-orange-new.svg');
+  background-image: url('../images/elipse-orange-new.svg');
   background-position: 0 66%;
 }
 
@@ -19109,7 +19109,7 @@ figcaption {
 
 .input_label_ind--text.red {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('../app/images/elipse-red.svg');
+  background-image: url('../images/elipse-red.svg');
 }
 
 .input_label_ind--text.none {
@@ -19125,7 +19125,7 @@ figcaption {
 }
 
 .input_label_ind--text.green_infinity {
-  background-image: url('../app/images/elipse-green.svg'), url('../app/images/infinity-small.svg');
+  background-image: url('../images/elipse-green.svg'), url('../images/infinity-small.svg');
   background-position: 0 66%, 14px -2px;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, 14px;
@@ -19133,7 +19133,7 @@ figcaption {
 
 .input_label_ind--text.pink {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('../app/images/elipse-pink-v2.svg');
+  background-image: url('../images/elipse-pink-v2.svg');
 }
 
 .ind--wrap {
@@ -19226,7 +19226,7 @@ figcaption {
 .input_check--wrap {
   width: 18px;
   height: 18px;
-  background-image: url('../app/images/green-check-w18.svg');
+  background-image: url('../images/green-check-w18.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -19320,22 +19320,22 @@ figcaption {
 }
 
 .action_btn.link {
-  background-image: url('../app/images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13.5px, auto;
 }
 
 .action_btn.port {
-  background-image: url('../app/images/port_1.svg');
+  background-image: url('../images/port_1.svg');
 }
 
 .action_btn.battery {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
 
 .action_btn.battery.white {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 16px, auto;
@@ -19343,7 +19343,7 @@ figcaption {
 }
 
 .action_btn.switch {
-  background-image: url('../app/images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13px, auto;
 }
 
@@ -19356,12 +19356,12 @@ figcaption {
 }
 
 .action_btn.basic_auth {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 14px, auto;
 }
 
 .action_btn.basic_auth.preselected {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 14px, auto;
@@ -19369,7 +19369,7 @@ figcaption {
 }
 
 .action_btn.whitelist_auth {
-  background-image: url('../app/images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
@@ -19386,7 +19386,7 @@ figcaption {
 }
 
 .action_btn.cancel {
-  background-image: url('../app/images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
 }
@@ -19610,22 +19610,22 @@ figcaption {
 }
 
 .sect_block--link.link {
-  background-image: url('../app/images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13.5px, auto;
 }
 
 .sect_block--link.port {
-  background-image: url('../app/images/port_1.svg');
+  background-image: url('../images/port_1.svg');
 }
 
 .sect_block--link.battery {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
 
 .sect_block--link.battery.white {
-  background-image: url('../app/images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
+  background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 16px, auto;
@@ -19633,7 +19633,7 @@ figcaption {
 }
 
 .sect_block--link.switch {
-  background-image: url('../app/images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 13px, auto;
 }
 
@@ -19646,12 +19646,12 @@ figcaption {
 }
 
 .sect_block--link.basic_auth {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 14px, auto;
 }
 
 .sect_block--link.basic_auth.preselected {
-  background-image: url('../app/images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
+  background-image: url('../images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 14px, auto;
@@ -19659,7 +19659,7 @@ figcaption {
 }
 
 .sect_block--link.whitelist_auth {
-  background-image: url('../app/images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-size: 16px, auto;
   padding-left: 33px;
 }
@@ -19677,13 +19677,13 @@ figcaption {
 }
 
 .sect_block--link.cancel {
-  background-image: url('../app/images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
+  background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
 }
 
 .sect_block--link.white {
-  background-image: url('../app/images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
+  background-image: url('../images/zap_skinnier.svg'), linear-gradient(rgba(255, 255, 255, .34), rgba(255, 255, 255, .34));
   background-position: 10px, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 12px, auto;
@@ -19851,7 +19851,7 @@ figcaption {
 .info_explain--link {
   color: #fff;
   letter-spacing: normal;
-  background-image: url('../app/images/arrow-up-right-line-white-1sk.svg');
+  background-image: url('../images/arrow-up-right-line-white-1sk.svg');
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: 13px;
@@ -21497,7 +21497,7 @@ figcaption {
   }
 
   .top_nav--link.member {
-    background-image: url('../app/images/percent-02.svg');
+    background-image: url('../images/percent-02.svg');
   }
 
   .gt_strt_crd_wrp {

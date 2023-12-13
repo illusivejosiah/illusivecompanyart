@@ -9735,7 +9735,7 @@
               r2 = t2.p;
             else if (e2) {
               var s2 = t2.p;
-              -1 !== s2.indexOf("app/images/") && (s2 = s2.split("/")[1]), r2 = e2 + s2;
+              -1 !== s2.indexOf("images/") && (s2 = s2.split("/")[1]), r2 = e2 + s2;
             } else
               r2 = i2, r2 += t2.u ? t2.u : "", r2 += t2.p;
             return r2;
@@ -10047,7 +10047,7 @@
             e = t.p;
           else if (this.assetsPath) {
             var i = t.p;
-            -1 !== i.indexOf("app/images/") && (i = i.split("/")[1]), e = this.assetsPath + i;
+            -1 !== i.indexOf("images/") && (i = i.split("/")[1]), e = this.assetsPath + i;
           } else
             e = this.path, e += t.u ? t.u : "", e += t.p;
           return e;
