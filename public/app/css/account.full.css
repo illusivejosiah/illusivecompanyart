@@ -1,0 +1,350 @@
+/*
+ * 2023.12.13.13:45:35
+ */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    appearance: textfield;
+    -moz-appearance: textfield; /* Firefox */
+}
+
+input[type=checkbox], input[type=radio] {
+    height: 12px;
+    width: 12px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+::selection {
+    background: #f8f8f8;
+    color: #232323;
+}
+
+.cl-rootBox.cl-userProfile-root {
+    margin: auto;
+    width: 100%;
+}
+
+.cl-card {
+    background-color: #141414;
+    border: 1px solid #1b1b1c;
+    border-radius: 8px;
+    box-shadow: 0 4px 5px 2px rgba(0, 0, 0, .21);
+    width: auto;
+}
+
+.cl-navbar {
+    border-right: 1px solid #1b1b1c;
+    max-width: 11rem;
+    background-color: #141414;
+    border-radius: 3px;
+}
+
+.cl-navbarButton {
+    color: white;
+    cursor: default;
+}
+
+.cl-navbarButtonIcon {
+    display: none;
+}
+
+.cl-navbarButton:hover {
+    background-color: #1f1f1fbf;
+}
+
+.cl-headerTitle {
+    color: #fff;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cl-headerSubtitle {
+    color: #999;
+    letter-spacing: .25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cl-profileSectionTitleText {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cl-accordionTriggerButton:hover {
+    background-color: #1f1f1fbf;
+}
+
+.cl-internal-rscu79,
+.cl-internal-of57g,
+.cl-internal-n3kcow,
+.cl-internal-3vf5mz,
+.cl-internal-xc1k76,
+.cl-internal-1b63r8w,
+.cl-formFieldInfoText,
+.cl-formFieldSuccessText,
+.cl-formResendCodeLink,
+.cl-internal-xkj3jj,
+.cl-internal-l1ab9q,
+.cl-internal-mv2spy,
+.cl-identityPreviewText,
+.cl-formHeaderTitle,
+.cl-identityPreviewEditButton,
+.cl-formFieldInputShowPasswordButton,
+.cl-fileDropAreaHint,
+.cl-breadcrumbsItem,
+.cl-verificationLinkStatusText,
+.cl-fileDropAreaIcon,
+.cl-userPreviewMainIdentifier,
+.cl-navbarMobileMenuButtonIcon,
+.cl-navbarMobileMenuButton {
+    color: white;
+}
+
+.cl-formHeaderSubtitle, .cl-avatarImageActionsUpload, .cl-fileDropAreaFooterHint, .cl-userPreviewSecondaryIdentifier {
+    color: #999;
+}
+
+
+.cl-fileDropAreaFooterHint {
+    padding-left: 2px;
+    padding-top: 4px;
+}
+
+.cl-fileDropAreaBox {
+    background-color: #181818;
+    border-radius: 4px;
+}
+
+.cl-fileDropAreaIconBox {
+    background-color: #2c2c2c;
+}
+
+.cl-identityPreview {
+    border: 1px solid rgb(45 45 45);
+    border-radius: 4px;
+    background-color: #212121;
+}
+
+.cl-identityPreviewEditButton:hover {
+    color: #cccccc;
+}
+
+.cl-internal-fqx4fd { /*span text*/
+    color: rgb(255 255 255 / 65%);
+}
+
+.cl-formFieldLabel {
+    color: #999;
+    font-size: 13px;
+}
+
+.cl-formFieldInput {
+    background-color: #212121;
+    border-radius: 4px;
+    color: white;
+}
+
+.cl-socialButtonsBlockButton:hover {
+    --arrow-opacity: 1;
+}
+
+.cl-formFieldInputShowPasswordButton, .cl-identityPreviewEditButton {
+    cursor: default;
+}
+
+.cl-formFieldInputShowPasswordButton:hover {
+    color: #ffffffad;
+}
+
+.cl-formFieldInput.cl-error.cl-required {
+    background-image: linear-gradient(#252525, rgb(248 78 78 / 8%));
+}
+
+.cl-formFieldInput.cl-error.cl-required {
+    background-image: linear-gradient(#252525, rgb(248 78 78 / 8%));
+}
+
+.cl-formButtonPrimary {
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #050505;
+    background-image: linear-gradient(4deg, #141414, rgba(19, 19, 19, .1));
+    border: 0.75px solid #000;
+    height: 36px;
+    border-radius: 4px;
+    cursor: default;
+}
+
+.cl-formButtonReset,
+.cl-internal-1sf6rji,
+.cl-fileDropAreaButtonPrimary {
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: transparent;
+    background-image: linear-gradient(#252525, rgba(224, 224, 224, .03));
+    border: 0.1px solid #0c0c0c;
+    height: 36px;
+    border-radius: 4px;
+    color: white;
+    cursor: default;
+}
+
+.cl-formButtonReset:hover, .cl-internal-1sf6rji:hover, .cl-fileDropAreaButtonPrimary:hover {
+    background-color: #262626;
+}
+
+.cl-formButtonPrimary:hover {
+    background-color: unset;
+    background-image: linear-gradient(4deg, #1b1b1b, rgba(53, 53, 53, .1));
+}
+
+.cl-profileSectionPrimaryButton {
+    color: #747474;
+    cursor: default;
+}
+
+.cl-profileSectionPrimaryButton:hover {
+    background-color: #1c1c1c;
+}
+
+.cl-badge {
+    color: white;
+    font-size: 9.5px;
+    line-height: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.15px;
+    background-color: #37373799;
+    border-radius: 2px;
+}
+
+.cl-breadcrumbsItemDivider {
+    color: #848484;
+}
+
+.cl-verificationLinkStatusIconBox {
+    color: white;
+    background-color: #6d6d6d0f;
+    border: 1px solid #2a2a2a;
+}
+
+.cl-avatarBox.cl-userPreviewAvatarBox {
+    width: 32px;
+    height: 32px;
+}
+
+.cl-userPreviewMainIdentifier {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.loader--wrp {
+    border: 10px solid;
+    border-image: linear-gradient(to right, #7000ff, #e05a1f) 1 stretch;
+    border-radius: 3px;
+}
+
+.dvd_box {
+    -webkit-animation: moveX 1s linear 0s infinite alternate, moveY 1.4s linear 0s infinite alternate;
+    -moz-animation: moveX 1s linear 0s infinite alternate, moveY 1.4s linear 0s infinite alternate;
+    -o-animation: moveX 1s linear 0s infinite alternate, moveY 1.4s linear 0s infinite alternate;
+    animation: moveX 1s linear 0s infinite alternate, moveY 1.4s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+    from {
+        left: 0;
+    }
+    to {
+        left: 79%;
+    }
+}
+
+@-moz-keyframes moveX {
+    from {
+        left: 0;
+    }
+    to {
+        left: 79%;
+    }
+}
+
+@-o-keyframes moveX {
+    from {
+        left: 0;
+    }
+    to {
+        left: 79%;
+    }
+}
+
+@keyframes moveX {
+    from {
+        left: 0;
+    }
+    to {
+        left: 79%;
+    }
+}
+
+@-webkit-keyframes moveY {
+    from {
+        top: 0;
+    }
+    to {
+        top: 79%;
+    }
+}
+
+@-moz-keyframes moveY {
+    from {
+        top: 0;
+    }
+    to {
+        top: 79%;
+    }
+}
+
+@-o-keyframes moveY {
+    from {
+        top: 0;
+    }
+    to {
+        top: 79%;
+    }
+}
+
+@keyframes moveY {
+    from {
+        top: 0;
+    }
+    to {
+        top: 79%;
+    }
+}
+
+@keyframes gradient-animation {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cl-rootBox.cl-userProfile-root {
+        padding: 0rem .25rem;
+    }
+}

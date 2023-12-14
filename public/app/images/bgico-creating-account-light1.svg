@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="336" fill="none" viewBox="0 0 336 336">
+    <g opacity=".06">
+        <mask id="b" width="336" height="336" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+            <path fill="url(#a)" d="M0 0h336v336H0z"/>
+        </mask>
+        <g mask="url(#b)">
+            <circle cx="168" cy="168" r="47.5" stroke="#EAECF0"/>
+            <circle cx="168" cy="168" r="47.5" stroke="#EAECF0"/>
+            <circle cx="168" cy="168" r="71.5" stroke="#EAECF0"/>
+            <circle cx="168" cy="168" r="95.5" stroke="#EAECF0"/>
+            <circle cx="168" cy="168" r="119.5" stroke="#EAECF0"/>
+            <circle cx="168" cy="168" r="143.5" stroke="#EAECF0"/>
+            <circle cx="168" cy="168" r="167.5" stroke="#EAECF0"/>
+        </g>
+    </g>
+    <rect width="40" height="40" x="149" y="148" fill="#141414" fill-opacity=".51" rx="20"/>
+    <g opacity=".3">
+        <path fill="url(#c)"
+              d="M176.798 176.678a11.625 11.625 0 0 1-7.798 2.989 11.625 11.625 0 0 1-7.798-2.989 4.669 4.669 0 0 1 4.298-2.845h7a4.669 4.669 0 0 1 4.298 2.845Z"/>
+        <path fill="url(#d)" d="M169 169.75a4.667 4.667 0 1 0 0-9.334 4.667 4.667 0 0 0 0 9.334Z"/>
+    </g>
+    <path stroke="#989A9C" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+          d="M161.202 176.678a4.669 4.669 0 0 1 4.298-2.845h7a4.669 4.669 0 0 1 4.298 2.845m-3.131-11.595a4.667 4.667 0 1 1-9.334 0 4.667 4.667 0 0 1 9.334 0Zm7 2.917c0 6.443-5.224 11.667-11.667 11.667s-11.667-5.224-11.667-11.667 5.224-11.667 11.667-11.667 11.667 5.224 11.667 11.667Z"/>
+    <defs>
+        <linearGradient id="c" x1="160.813" x2="177.188" y1="170.042" y2="170.042" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E7E7E7"/>
+            <stop offset=".823" stop-color="#E7E7E7" stop-opacity="0"/>
+            <stop offset="1" stop-color="#E7E7E7" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="d" x1="160.813" x2="177.188" y1="170.042" y2="170.042" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E7E7E7"/>
+            <stop offset=".823" stop-color="#E7E7E7" stop-opacity="0"/>
+            <stop offset="1" stop-color="#E7E7E7" stop-opacity="0"/>
+        </linearGradient>
+        <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="rotate(90 0 168) scale(168)"
+                        gradientUnits="userSpaceOnUse">
+            <stop/>
+            <stop offset="1" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+</svg>

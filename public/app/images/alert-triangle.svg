@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" viewBox="0 0 15 15">
+    <path fill="url(#a)"
+          d="m1.494 11.311 5.14-8.879c.284-.49.426-.736.612-.819a.625.625 0 0 1 .508 0c.185.083.327.328.611.819l5.14 8.88c.286.492.428.738.407.94a.625.625 0 0 1-.254.44c-.164.12-.449.12-1.018.12H2.36c-.569 0-.854 0-1.018-.12a.625.625 0 0 1-.254-.44c-.021-.202.121-.448.407-.94Z"
+          opacity=".3"/>
+    <path stroke="url(#b)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35"
+          d="M7.5 5.625v2.5m0 2.5h.006m-.872-8.193-5.14 8.88c-.286.492-.428.738-.407.94a.62.62 0 0 0 .254.44c.164.12.449.12 1.018.12H12.64c.57 0 .854 0 1.018-.12a.625.625 0 0 0 .254-.44c.021-.202-.121-.448-.406-.94l-5.141-8.88c-.284-.49-.426-.736-.611-.819a.625.625 0 0 0-.508 0c-.186.083-.328.328-.612.819Z"/>
+    <defs>
+        <linearGradient id="a" x1=".764" x2="14.235" y1="7.186" y2="7.186" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFBA33"/>
+            <stop offset=".823" stop-color="#E7E7E7" stop-opacity="0"/>
+            <stop offset=".875" stop-color="#E7E7E7" stop-opacity="0"/>
+            <stop offset="1" stop-color="#E7E7E7" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="b" x1="3.5" x2="15" y1="7" y2="13" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E6721F"/>
+            <stop offset="1" stop-color="#FD9449"/>
+        </linearGradient>
+    </defs>
+</svg>
