@@ -145,7 +145,7 @@ $(window).resize(function () {
  ** @returns {Promise} A Promise that resolves with the result or rejects with an error message.
  */
 async function lscCmdbar() {
-    await lsc("../scripts/functions/cmdbar.js", "cmdbar.js")
+    await lsc("scripts/functions/cmdbar.js", "cmdbar.js")
         // .then((val) => console.log(val))
         .catch((err) => console.error(err.message));
 }
