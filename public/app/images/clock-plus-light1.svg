@@ -1,16 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 14 14">
-  <g clip-path="url(#a)">
-    <path fill="url(#b)" d="M7 12.833A5.833 5.833 0 1 0 7 1.167a5.833 5.833 0 0 0 0 11.666Z" opacity=".4"/>
-    <path stroke="#989A9C" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12.787 7.738a5.833 5.833 0 1 0-5.038 5.048M7 3.5V7l2.18 1.09m1.903 4.743v-3.5m-1.75 1.75h3.5"/>
-  </g>
-  <defs>
-    <linearGradient id="b" x1=".875" x2="13.125" y1="7" y2="7" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#E7E7E7"/>
-      <stop offset=".823" stop-color="#E7E7E7" stop-opacity="0"/>
-      <stop offset="1" stop-color="#E7E7E7" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="a">
-      <path fill="#fff" d="M0 0h14v14H0z"/>
-    </clipPath>
-  </defs>
+    <g clip-path="url(#a)">
+        <path fill="url(#b)" d="M7 12.833A5.833 5.833 0 1 0 7 1.167a5.833 5.833 0 0 0 0 11.666Z" opacity=".4"/>
+        <path stroke="#989A9C" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M12.787 7.738a5.833 5.833 0 1 0-5.038 5.048M7 3.5V7l2.18 1.09m1.903 4.743v-3.5m-1.75 1.75h3.5"/>
+    </g>
+    <defs>
+        <linearGradient id="b" x1=".875" x2="13.125" y1="7" y2="7" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E7E7E7"/>
+            <stop offset=".823" stop-color="#E7E7E7" stop-opacity="0"/>
+            <stop offset="1" stop-color="#E7E7E7" stop-opacity="0"/>
+        </linearGradient>
+        <clipPath id="a">
+            <path fill="#fff" d="M0 0h14v14H0z"/>
+        </clipPath>
+    </defs>
 </svg>

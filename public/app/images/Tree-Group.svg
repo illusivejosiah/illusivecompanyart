@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="37" height="181" fill="none" viewBox="0 0 37 181">
-  <path fill="#272B30" d="M23 1a1 1 0 112 0v47h-2V1z"/>
-  <path stroke="#272B30" stroke-linecap="round" stroke-width="2" d="M24 12v4a8 8 0 008 8h4"/>
-  <path fill="#272B30" d="M23 46a1 1 0 112 0v47h-2V46z"/>
-  <path stroke="#272B30" stroke-linecap="round" stroke-width="2" d="M24 57v4a8 8 0 008 8h4"/>
-  <g>
-    <path fill="#272B30" d="M23 91a1 1 0 112 0v47h-2V91z"/>
-    <path stroke="#272B30" stroke-linecap="round" stroke-width="2" d="M24 102v4a8 8 0 008 8h4"/>
-  </g>
-  <g>
-    <path fill="#22272F" d="M23 133h2v16h-2z"/>
-    <path stroke="#22272F" stroke-linecap="round" stroke-width="2" d="M24 145v4a8 8 0 008 8h4"/>
-  </g>
+    <path fill="#272B30" d="M23 1a1 1 0 112 0v47h-2V1z"/>
+    <path stroke="#272B30" stroke-linecap="round" stroke-width="2" d="M24 12v4a8 8 0 008 8h4"/>
+    <path fill="#272B30" d="M23 46a1 1 0 112 0v47h-2V46z"/>
+    <path stroke="#272B30" stroke-linecap="round" stroke-width="2" d="M24 57v4a8 8 0 008 8h4"/>
+    <g>
+        <path fill="#272B30" d="M23 91a1 1 0 112 0v47h-2V91z"/>
+        <path stroke="#272B30" stroke-linecap="round" stroke-width="2" d="M24 102v4a8 8 0 008 8h4"/>
+    </g>
+    <g>
+        <path fill="#22272F" d="M23 133h2v16h-2z"/>
+        <path stroke="#22272F" stroke-linecap="round" stroke-width="2" d="M24 145v4a8 8 0 008 8h4"/>
+    </g>
 </svg>

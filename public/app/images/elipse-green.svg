@@ -1,20 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
-  <g filter="url(#a)">
-    <circle cx="6" cy="5" r="2.5" stroke="url(#b)"/>
-  </g>
-  <defs>
-    <linearGradient id="b" x1="3" x2="9" y1="2" y2="6.2" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#49FF97"/>
-      <stop offset="1" stop-color="#0AA61A"/>
-    </linearGradient>
-    <filter id="a" width="12" height="12" x="0" y="0" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-      <feOffset dy="1"/>
-      <feGaussianBlur stdDeviation="1.5"/>
-      <feColorMatrix values="0 0 0 0 0.164706 0 0 0 0 0.992157 0 0 0 0 0.517647 0 0 0 0.5 0"/>
-      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_1416_1230"/>
-      <feBlend in="SourceGraphic" in2="effect1_dropShadow_1416_1230" result="shape"/>
-    </filter>
-  </defs>
+    <g filter="url(#a)">
+        <circle cx="6" cy="5" r="2.5" stroke="url(#b)"/>
+    </g>
+    <defs>
+        <linearGradient id="b" x1="3" x2="9" y1="2" y2="6.2" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#49FF97"/>
+            <stop offset="1" stop-color="#0AA61A"/>
+        </linearGradient>
+        <filter id="a" width="12" height="12" x="0" y="0" color-interpolation-filters="sRGB"
+                filterUnits="userSpaceOnUse">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation="1.5"/>
+            <feColorMatrix values="0 0 0 0 0.164706 0 0 0 0 0.992157 0 0 0 0 0.517647 0 0 0 0.5 0"/>
+            <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_1416_1230"/>
+            <feBlend in="SourceGraphic" in2="effect1_dropShadow_1416_1230" result="shape"/>
+        </filter>
+    </defs>
 </svg>

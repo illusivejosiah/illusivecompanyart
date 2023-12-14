@@ -1,5 +1,9 @@
-<!DOCTYPE html><!--  Last Published: Mon Dec 11 2023 20:20:40 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="654aff823851b795e648c042" data-wf-site="61e7cdbd824d2f94d05c4edc">
+<!--
+  ~ 2023.12.13.14:41:37
+  -->
+
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <title>Developers</title>
@@ -18,34 +22,7 @@
         n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
     }(window, document);</script>
     <link href="../images/favicon.png" rel="shortcut icon" type="image/x-icon">
-    <link href="../images/webclip.png" rel="apple-touch-icon"><!--  LiveSession.io code  -->
-    <script type="text/javascript">
-        window['__ls_namespace'] = '__ls';
-        window['__ls_script_url'] = 'https://cdn.livesession.io/track.js';
-        !function (w, d, t, u, n) {
-            if (n in w) {
-                if (w.console && w.console.log) {
-                    w.console.log('LiveSession namespace conflict. Please set window["__ls_namespace"].');
-                }
-                return;
-            }
-            if (w[n]) return;
-            var f = w[n] = function () {
-                f.push ? f.push.apply(f, arguments) : f.store.push(arguments)
-            };
-            if (!w[n]) w[n] = f;
-            f.store = [];
-            f.v = "1.1";
-            var ls = d.createElement(t);
-            ls.async = true;
-            ls.src = u;
-            var s = d.getElementsByTagName(t)[0];
-            s.parentNode.insertBefore(ls, s);
-        }(window, document, 'script', window['__ls_script_url'], window['__ls_namespace']);
-        __ls("init", "8763f02d.112cf6e4", {keystrokes: true, rootHostname: '.illusivecompany.art'});
-        __ls("newPageView");
-    </script>
-    <!--  END LiveSession.io code  -->
+    <link href="../images/webclip.png" rel="apple-touch-icon">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
@@ -58,19 +35,9 @@
             -moz-osx-font-smoothing: grayscale;
             -webkit-font-smoothing: antialiased;
         }
-
-        #signOutLink {
-            display: none;
-        }
-
-        @media screen and (max-width: 990px) {
-            .signoutlink {
-                display: block;
-            }
-        }
     </style>
 
-    <link rel="stylesheet" href="https://www.illusory.io/app/css/developers.full.css">
+    <link rel="stylesheet" href="../css/developers.full.css">
 
 </head>
 <body class="body dark">
@@ -87,13 +54,13 @@
         <div id="nav_sb" class="nav_sb">
             <div class="w-layout-blockcontainer top_nav--wrp w-container">
                 <div class="sb_logo--wrp">
-                    <a href="/" class="sb_logo_link--wrp w-inline-block"><img
+                    <a href="../" class="sb_logo_link--wrp w-inline-block"><img
                             src="../images/illusory-logo-circle-icon-83w.svg" loading="lazy" width="83" alt=""
                             class="sb_logo--img"></a>
                 </div>
                 <div class="top_nav_menu_link--wrp">
                     <div class="top_nav_menu_items--wrp settings">
-                        <a href="/" class="top_nav--link back w-inline-block">
+                        <a href="../" class="top_nav--link back w-inline-block">
                             <div class="top_nav_link--text white">Settings</div>
                         </a>
                         <a href="../settings/account" class="top_nav--link account w-inline-block">
@@ -306,7 +273,7 @@
         crossorigin="anonymous"></script>
 <script src="../js/illusory-app-ae51ffe2d8c0f9c74a23ef2fca.js" type="text/javascript"></script>
 
-<script src="https://www.illusory.io/app/scripts/pages/developers.full.js"></script>
+<script src="../scripts/pages/developers.full.js"></script>
 <script>
     $(document).ready(function () {
         const targetElement = document.querySelector(".bdy_v2");

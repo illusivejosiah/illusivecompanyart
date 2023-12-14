@@ -1,5 +1,9 @@
-<!DOCTYPE html><!--  Last Published: Mon Dec 11 2023 20:20:40 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="64b47083fbd059d22a09f00a" data-wf-site="61e7cdbd824d2f94d05c4edc">
+<!--
+  ~ 2023.12.13.22:43:1
+  -->
+
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <title>Dashboard</title>
@@ -18,34 +22,7 @@
         n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
     }(window, document);</script>
     <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
-    <link href="images/webclip.png" rel="apple-touch-icon"><!--  LiveSession.io code  -->
-    <script type="text/javascript">
-        window['__ls_namespace'] = '__ls';
-        window['__ls_script_url'] = 'https://cdn.livesession.io/track.js';
-        !function (w, d, t, u, n) {
-            if (n in w) {
-                if (w.console && w.console.log) {
-                    w.console.log('LiveSession namespace conflict. Please set window["__ls_namespace"].');
-                }
-                return;
-            }
-            if (w[n]) return;
-            var f = w[n] = function () {
-                f.push ? f.push.apply(f, arguments) : f.store.push(arguments)
-            };
-            if (!w[n]) w[n] = f;
-            f.store = [];
-            f.v = "1.1";
-            var ls = d.createElement(t);
-            ls.async = true;
-            ls.src = u;
-            var s = d.getElementsByTagName(t)[0];
-            s.parentNode.insertBefore(ls, s);
-        }(window, document, 'script', window['__ls_script_url'], window['__ls_namespace']);
-        __ls("init", "8763f02d.112cf6e4", {keystrokes: true, rootHostname: '.illusivecompany.art'});
-        __ls("newPageView");
-    </script>
-    <!--  END LiveSession.io code  -->
+    <link href="images/webclip.png" rel="apple-touch-icon">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
@@ -58,25 +35,16 @@
             -moz-osx-font-smoothing: grayscale;
             -webkit-font-smoothing: antialiased;
         }
-
-        #signOutLink {
-            display: none;
-        }
-
-        @media screen and (max-width: 990px) {
-            .signoutlink {
-                display: block;
-            }
-        }
     </style>
 
-    <link rel="stylesheet" href="https://www.illusory.io/app/css/dashboard.full.css">
+    <link rel="stylesheet" href="css/dashboard.full.css">
 
 </head>
 <body class="body dark">
 <div class="w-layout-blockcontainer page_loader--contain hide w-container">
     <div class="loader--wrp">
-        <div class="dvd_box"><img src="images/illusory-icon-circle-50.svg" loading="lazy" width="30" alt="" class="eye">
+        <div class="dvd_box"><img src="images/illusory-icon-circle-50.svg" loading="lazy" width="30" alt=""
+                                  class="eye">
             <div class="page_loader--text">Loading</div>
         </div>
     </div>
@@ -95,7 +63,7 @@
                 <div class="mod_crd_detail--wrap">
                     <div class="columns-5 w-row">
                         <div class="column-14 w-col w-col-7">
-                            <div id="proxy-AT-US-LA1-1012" class="prx_swap_crd--wrap">
+                            <div class="prx_swap_crd--wrap">
                                 <div class="prx_swap_crd--inner">
                                     <div class="prx_swap_crd_tit--wrap">
                                         <div class="prx_swap_crd_tit--inner w-clearfix">
@@ -123,16 +91,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column-15 w-col w-col-1"><img src="images/switch-horizontal-01.svg" loading="lazy"
+                        <div class="column-15 w-col w-col-1"><img src="images/switch-horizontal-01.svg"
+                                                                  loading="lazy"
                                                                   alt="" class="image-15"></div>
                         <div class="column-13 w-col w-col-4">
-                            <div id="proxy-AT-US-LA1-1012" class="swap_crd--wrap">
+                            <div class="swap_crd--wrap">
                                 <div class="swap_crd--inner">
                                     <div class="swap_crd_tit--wrap">
                                         <div class="swap_crd_tit--inner w-clearfix">
                                             <div class="swap_crd_name--wrap w-clearfix">
                                                 <div class="swap_crd_tit--text">NEW PROXY</div>
-                                                <img src="images/info-circle-duo-2.svg" loading="lazy" width="11" alt=""
+                                                <img src="images/info-circle-duo-2.svg" loading="lazy" width="11"
+                                                     alt=""
                                                      class="info_circle_duo--icon">
                                                 <div class="info--wrap">
                                                     <div class="info_grid--wrap">
@@ -256,7 +226,7 @@
                             <div mod_swap_action_btn="cancel_swap" class="actions_btn w-clearfix">
                                 <div id="modCancBtnIco" class="btn_icon cancel">
                                     <div id="modCancBtnLdr" class="lottie_btn_ldr" data-animation-type="lottie"
-                                         data-src="app/documents/chipped-circle-loader-v3.json" data-loop="1"
+                                         data-src="documents/chipped-circle-loader-v3.json" data-loop="1"
                                          data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg"
                                          data-default-duration="1" data-duration="0.65"></div>
                                 </div>
@@ -335,7 +305,8 @@
                         <div mod_remove_action_btn="cancel_remove" class="actions_btn w-clearfix">
                             <div id="modCancBtnIco" class="btn_icon cancel">
                                 <div id="modCancBtnLdr" class="lottie_btn_ldr" data-animation-type="lottie"
-                                     data-src="app/documents/chipped-circle-loader-v3.json" data-loop="1" data-direction="1"
+                                     data-src="documents/chipped-circle-loader-v3.json" data-loop="1"
+                                     data-direction="1"
                                      data-autoplay="1" data-is-ix2-target="0" data-renderer="svg"
                                      data-default-duration="1" data-duration="0.65"></div>
                             </div>
@@ -349,7 +320,8 @@
     <div id="nav_sb" class="nav_sb">
         <div class="w-layout-blockcontainer top_nav--wrp w-container">
             <div class="sb_logo--wrp">
-                <a href="/" class="sb_logo_link--wrp w-inline-block"><img src="images/illusory-logo-circle-icon-83w.svg"
+                <a href="/app" class="sb_logo_link--wrp w-inline-block"><img
+                        src="images/illusory-logo-circle-icon-83w.svg"
                                                                           loading="lazy" width="83" alt=""
                                                                           class="sb_logo--img"></a>
             </div>
@@ -364,11 +336,11 @@
             </div>
             <div class="top_nav_menu_link--wrp">
                 <div class="top_nav_menu_items--wrp">
-                    <a href="/" class="top_nav--link start w-inline-block">
+                    <a href="/app" class="top_nav--link start w-inline-block">
                         <div class="top_nav_link--text">Get Started</div>
                     </a>
                     <a href="new" class="top_nav--link add w-inline-block">
-                        <div class="top_nav_link--text">Add Proxies</div>
+                        <div class="top_nav_link--text">Deploy Proxies</div>
                     </a>
                     <a href="allocate" class="top_nav--link allocate w-inline-block">
                         <div class="top_nav_link--text">Extend Time</div>
@@ -441,7 +413,8 @@
             </div>
             <div class="dash_mod_col w-col w-col-5">
                 <div id="prx_mod" class="mod_v2">
-                    <div class="proxy-modal-header w-clearfix"><img src="images/X-Icon-White.svg" loading="lazy" alt=""
+                    <div class="proxy-modal-header w-clearfix"><img src="images/X-Icon-White.svg" loading="lazy"
+                                                                    alt=""
                                                                     id="mod_x" class="x-icon"><img
                             src="images/Line-2.svg" loading="lazy" alt="" class="x-line-icon">
                         <div class="proxy-name-title-wrap">
@@ -557,7 +530,8 @@
                                             <div id="modBasAuthBtnIco" class="btn_icon pwrd">
                                                 <div id="modBasAuthBtnLdr" class="lottie_btn_ldr"
                                                      data-animation-type="lottie"
-                                                     data-src="app/documents/chipped-circle-loader-v3.json" data-loop="1"
+                                                     data-src="documents/chipped-circle-loader-v3.json"
+                                                     data-loop="1"
                                                      data-direction="1" data-autoplay="1" data-is-ix2-target="0"
                                                      data-renderer="svg" data-default-duration="1"
                                                      data-duration="0.65"></div>
@@ -568,7 +542,8 @@
                                             <div id="modWhliAuthBtnIco" class="btn_icon signal">
                                                 <div id="modWhliAuthBtnLdr" class="lottie_btn_ldr"
                                                      data-animation-type="lottie"
-                                                     data-src="app/documents/chipped-circle-loader-v3.json" data-loop="1"
+                                                     data-src="documents/chipped-circle-loader-v3.json"
+                                                     data-loop="1"
                                                      data-direction="1" data-autoplay="1" data-is-ix2-target="0"
                                                      data-renderer="svg" data-default-duration="1"
                                                      data-duration="0.65"></div>
@@ -709,7 +684,8 @@
                                                         <div class="modal_option_tit--text">Automatically Change IP
                                                         </div>
                                                         <div class="modal_info_icon--wrap w-clearfix"><img
-                                                                src="images/info-circle-duo-2.svg" loading="lazy" alt=""
+                                                                src="images/info-circle-duo-2.svg" loading="lazy"
+                                                                alt=""
                                                                 class="info_circle_duo--icon">
                                                             <div class="info--wrap modal">
                                                                 <div class="info_grid--wrap">
@@ -813,7 +789,8 @@
                                                     <div class="modal_config_tit--wrap">
                                                         <div class="modal_option_tit--text">IPv4 Enabled</div>
                                                         <div class="modal_info_icon--wrap w-clearfix"><img
-                                                                src="images/info-circle-duo-2.svg" loading="lazy" alt=""
+                                                                src="images/info-circle-duo-2.svg" loading="lazy"
+                                                                alt=""
                                                                 class="info_circle_duo--icon">
                                                             <div class="info--wrap modal">
                                                                 <div class="info_grid--wrap">
@@ -859,7 +836,8 @@
                                                     <div class="modal_config_tit--wrap">
                                                         <div class="modal_option_tit--text">Authentication</div>
                                                         <div class="modal_info_icon--wrap w-clearfix"><img
-                                                                src="images/info-circle-duo-2.svg" loading="lazy" alt=""
+                                                                src="images/info-circle-duo-2.svg" loading="lazy"
+                                                                alt=""
                                                                 class="info_circle_duo--icon">
                                                             <div class="info--wrap modal">
                                                                 <div class="info_grid--wrap">
@@ -871,7 +849,7 @@
                                                                                 method used to secure your proxy
                                                                                 connection. Proxies can be authenticated
                                                                                 with Username &amp; Password or
-                                                                                Whitelisted IPs.<span
+                                                                                Whitelisted IPs. <span
                                                                                         class="info_explain--link">View Docs</span>
                                                                             </div>
                                                                         </a>
@@ -946,7 +924,8 @@
                                                     <div class="modal_config_tit--wrap">
                                                         <div class="modal_option_tit--text">Connect</div>
                                                         <div class="modal_info_icon--wrap w-clearfix"><img
-                                                                src="images/info-circle-duo-2.svg" loading="lazy" alt=""
+                                                                src="images/info-circle-duo-2.svg" loading="lazy"
+                                                                alt=""
                                                                 class="info_circle_duo--icon">
                                                             <div class="info--wrap modal">
                                                                 <div class="info_grid--wrap">
@@ -1088,7 +1067,8 @@
                                                     <div class="modal_config_tit--wrap">
                                                         <div class="modal_option_tit--text">Expiration</div>
                                                         <div class="modal_info_icon--wrap w-clearfix"><img
-                                                                src="images/info-circle-duo-2.svg" loading="lazy" alt=""
+                                                                src="images/info-circle-duo-2.svg" loading="lazy"
+                                                                alt=""
                                                                 class="info_circle_duo--icon">
                                                             <div class="info--wrap modal">
                                                                 <div class="info_grid--wrap">
@@ -1275,7 +1255,7 @@
                                     <div mod_action_btn="remove" class="actions_btn remove w-clearfix">
                                         <div id="modRmvBtnIco" class="btn_icon trash">
                                             <div id="modRmvBtnLdr" class="lottie_btn_ldr" data-animation-type="lottie"
-                                                 data-src="app/documents/chipped-circle-loader-v3.json" data-loop="1"
+                                                 data-src="documents/chipped-circle-loader-v3.json" data-loop="1"
                                                  data-direction="1" data-autoplay="1" data-is-ix2-target="0"
                                                  data-renderer="svg" data-default-duration="1"
                                                  data-duration="0.65"></div>
@@ -1290,7 +1270,7 @@
                                     <div class="actions_btn report w-clearfix">
                                         <div id="modFdbkBtnIco" class="btn_icon feedback">
                                             <div id="modFdbkBtnLdr" class="lottie_btn_ldr" data-animation-type="lottie"
-                                                 data-src="app/documents/chipped-circle-loader-v3.json" data-loop="1"
+                                                 data-src="documents/chipped-circle-loader-v3.json" data-loop="1"
                                                  data-direction="1" data-autoplay="1" data-is-ix2-target="0"
                                                  data-renderer="svg" data-default-duration="1"
                                                  data-duration="0.65"></div>
@@ -1324,7 +1304,7 @@
                                     <div id="modFirstCancelBtn" class="actions_btn w-clearfix">
                                         <div id="modCancBtnIco" class="btn_icon back">
                                             <div id="modCancBtnLdr" class="lottie_btn_ldr" data-animation-type="lottie"
-                                                 data-src="app/documents/chipped-circle-loader-v3.json" data-loop="1"
+                                                 data-src="documents/chipped-circle-loader-v3.json" data-loop="1"
                                                  data-direction="1" data-autoplay="1" data-is-ix2-target="0"
                                                  data-renderer="svg" data-default-duration="1"
                                                  data-duration="0.65"></div>
@@ -1345,7 +1325,7 @@
                 <div err_alert_ind="true" class="err_alert_ind_small orange">
                     <div class="btn_ldr_wrp w-embed">
                         <lottie-player class="lottie_btn_ldr realtime" err_item_ldr="realtime"
-                                       src="../documents/realtime-loader-cropped.json" background="transparent"
+                                       src="documents/realtime-loader-cropped.json" background="transparent"
                                        style="display: flex;">
                         </lottie-player>
                     </div>
@@ -1386,7 +1366,7 @@
         crossorigin="anonymous"></script>
 <script src="js/illusory-app-ae51ffe2d8c0f9c74a23ef2fca.js" type="text/javascript"></script>
 
-<script src="https://www.illusory.io/app/scripts/pages/dashboard.full.js"></script>
+<script src="scripts/pages/dashboard.full.js"></script>
 <script>
     $(document).ready(function () {
         const targetElement = document.querySelector(".bdy_v2");

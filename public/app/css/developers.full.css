@@ -1,0 +1,121 @@
+/*
+ * 2023.12.13.13:45:35
+ */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    appearance: textfield;
+    -moz-appearance: textfield; /* Firefox */
+}
+
+::selection {
+    background: #f8f8f8;
+    color: #232323;
+}
+
+.skel_apikey_bg {
+    animation-name: gradient-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.loader--wrp {
+    border: 10px solid;
+    border-image: linear-gradient(to right, #7000ff, #e05a1f) 1 stretch;
+    border-radius: 3px;
+}
+
+.dvd_box {
+    -webkit-animation: moveX 1s linear 0s infinite alternate, moveY 1.4s linear 0s infinite alternate;
+    -moz-animation: moveX 1s linear 0s infinite alternate, moveY 1.4s linear 0s infinite alternate;
+    -o-animation: moveX 1s linear 0s infinite alternate, moveY 1.4s linear 0s infinite alternate;
+    animation: moveX 1s linear 0s infinite alternate, moveY 1.4s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+    from {
+        left: 0;
+    }
+    to {
+        left: 79%;
+    }
+}
+
+@-moz-keyframes moveX {
+    from {
+        left: 0;
+    }
+    to {
+        left: 79%;
+    }
+}
+
+@-o-keyframes moveX {
+    from {
+        left: 0;
+    }
+    to {
+        left: 79%;
+    }
+}
+
+@keyframes moveX {
+    from {
+        left: 0;
+    }
+    to {
+        left: 79%;
+    }
+}
+
+@-webkit-keyframes moveY {
+    from {
+        top: 0;
+    }
+    to {
+        top: 79%;
+    }
+}
+
+@-moz-keyframes moveY {
+    from {
+        top: 0;
+    }
+    to {
+        top: 79%;
+    }
+}
+
+@-o-keyframes moveY {
+    from {
+        top: 0;
+    }
+    to {
+        top: 79%;
+    }
+}
+
+@keyframes moveY {
+    from {
+        top: 0;
+    }
+    to {
+        top: 79%;
+    }
+}
+
+@keyframes gradient-animation {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 100%;
+    }
+}

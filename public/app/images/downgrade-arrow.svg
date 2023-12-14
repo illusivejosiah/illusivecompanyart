@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><defs><style>.cls-1,.cls-2{fill:none;stroke:#fff;}.cls-2{stroke-linecap:round;stroke-linejoin:round;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_2-2" data-name="Layer 2"><path class="cls-1" d="M.72,7.86a4.56,4.56,0,0,0,3.42,3.42,8.06,8.06,0,0,0,3.72,0,4.56,4.56,0,0,0,3.42-3.42,8.06,8.06,0,0,0,0-3.72A4.56,4.56,0,0,0,7.86.72a8.06,8.06,0,0,0-3.72,0A4.56,4.56,0,0,0,.72,4.14,8.06,8.06,0,0,0,.72,7.86Z"/><path class="cls-2" d="M6,8.14V3.86M4.47,6.61,6,8.14M7.53,6.61,6,8.14"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+    <defs>
+        <style>.cls-1,.cls-2{fill:none;stroke:#fff;}.cls-2{stroke-linecap:round;stroke-linejoin:round;}</style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_2-2" data-name="Layer 2">
+            <path class="cls-1"
+                  d="M.72,7.86a4.56,4.56,0,0,0,3.42,3.42,8.06,8.06,0,0,0,3.72,0,4.56,4.56,0,0,0,3.42-3.42,8.06,8.06,0,0,0,0-3.72A4.56,4.56,0,0,0,7.86.72a8.06,8.06,0,0,0-3.72,0A4.56,4.56,0,0,0,.72,4.14,8.06,8.06,0,0,0,.72,7.86Z"/>
+            <path class="cls-2" d="M6,8.14V3.86M4.47,6.61,6,8.14M7.53,6.61,6,8.14"/>
+        </g>
+    </g>
+</svg>
