@@ -858,9 +858,21 @@ $(`[action-btn="enable_member_start"]`).off('click').click(async function () {
     await showHideSectBlock($(`[sect_content="enable_start"]`), $(`[sect_content="enable_form"]`));
 })
 
+// Select issue area
 $(`[action-btn-issue-area]`).off('click').click(async function () {
     // remove green and remove data-selected
     $(`[action-btn-issue-area]`).removeClass(`green`)
+        .removeAttr(`data-selected`);
+    $(this).addClass(`green`)
+        .attr({
+            'data-selected': true,
+        });
+})
+
+// Select issue severity
+$(`[action-btn-issue-severity]`).off('click').click(async function () {
+    // remove green and remove data-selected
+    $(`[action-btn-issue-severity]`).removeClass(`green`)
         .removeAttr(`data-selected`);
     $(this).addClass(`green`)
         .attr({
