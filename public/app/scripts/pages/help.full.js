@@ -880,6 +880,30 @@ $(`[action-btn-issue-severity]`).off('click').click(async function () {
         });
 })
 
+// Select issue service
+$(`[action-btn-issue-service]`).off('click').click(async function () {
+    const service = $(this).attr(`action-btn-issue-service`);
+    if (service === `none`) {
+        $(`[action-btn-issue-severity]`).removeClass(`green`)
+            .removeAttr(`data-selected`);
+        $(this).addClass(`green`)
+            .attr({
+                'data-selected': true,
+            });
+    } else {
+        const serviceNone = $(`[action-btn-issue-service="none"]`);
+        if (serviceNone.hasClass(`green`)) {
+            serviceNone.removeClass(`green`)
+                .removeAttr(`data-selected`);
+        }
+        $(this).addClass(`green`)
+            .attr({
+                'data-selected': true,
+            });
+    }
+
+})
+
 $(`[action-btn="not_member"]`).off('click').click(async function () {
     const request = await sendMemberClaim(false);
     // check if request was successful or error
