@@ -13439,7 +13439,7 @@ figcaption {
   background-size: 14px 14px;
 }
 
-.action_btn_text {
+.action-btn-text {
     float: left;
 }
 
@@ -14071,7 +14071,7 @@ figcaption {
     position: relative;
 }
 
-.allo_action_btn {
+.allo_action-btn {
     color: var(--white);
     cursor: default;
     background-image: linear-gradient(#272727, rgba(224, 224, 224, .03));
@@ -14090,40 +14090,40 @@ figcaption {
     box-shadow: 0 0 1px rgba(0, 0, 0, .8);
 }
 
-.allo_action_btn:hover {
+.allo_action-btn:hover {
     background-color: #202225;
 }
 
-.allo_action_btn.remove {
+.allo_action-btn.remove {
     float: right;
     background-image: linear-gradient(#ff1b1b, #ff2323);
     position: static;
 }
 
-.allo_action_btn.remove:hover {
+.allo_action-btn.remove:hover {
     background-image: linear-gradient(#ff3636, #ff4242);
 }
 
-.allo_action_btn.spin {
+.allo_action-btn.spin {
     background-image: linear-gradient(#272727, rgba(224, 224, 224, .03));
 }
 
-.allo_action_btn.link {
+.allo_action-btn.link {
     background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 13.5px, auto;
 }
 
-.allo_action_btn.port {
+.allo_action-btn.port {
     background-image: url('../images/port_1.svg');
 }
 
-.allo_action_btn.battery {
+.allo_action-btn.battery {
     background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 16px, auto;
     padding-left: 33px;
 }
 
-.allo_action_btn.battery.white {
+.allo_action-btn.battery.white {
     background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
     background-position: 10px, 0 0;
     background-repeat: no-repeat, repeat;
@@ -14131,25 +14131,25 @@ figcaption {
     border-color: #fff;
 }
 
-.allo_action_btn.switch {
+.allo_action-btn.switch {
     background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 13px, auto;
 }
 
-.allo_action_btn.report {
+.allo_action-btn.report {
     background-image: linear-gradient(#ffa600, #ffa023);
 }
 
-.allo_action_btn.report:hover {
+.allo_action-btn.report:hover {
     background-image: linear-gradient(#ff9b29, #ffa125);
 }
 
-.allo_action_btn.basic_auth {
+.allo_action-btn.basic_auth {
     background-image: url('../images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 14px, auto;
 }
 
-.allo_action_btn.basic_auth.preselected {
+.allo_action-btn.basic_auth.preselected {
     background-image: url('../images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
     background-position: 10px, 0 0;
     background-repeat: no-repeat, repeat;
@@ -14157,41 +14157,41 @@ figcaption {
     border-color: #fff;
 }
 
-.allo_action_btn.whitelist_auth {
+.allo_action-btn.whitelist_auth {
     background-image: url('../images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 16px, auto;
     padding-left: 33px;
 }
 
-.allo_action_btn.confirm {
+.allo_action-btn.confirm {
     background-image: linear-gradient(#000 55%, rgba(0, 0, 0, .85));
     border-color: #000;
     padding-left: 10px;
     display: flex;
 }
 
-.allo_action_btn.confirm:hover {
+.allo_action-btn.confirm:hover {
     background-image: linear-gradient(rgba(0, 0, 0, .85) 60%, rgba(0, 0, 0, .55));
 }
 
-.allo_action_btn.cancel {
+.allo_action-btn.cancel {
     background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-position: 10px, 0 0;
     background-repeat: no-repeat, repeat;
 }
 
-.allo_action_btn.white {
+.allo_action-btn.white {
     background-image: linear-gradient(rgba(255, 255, 255, .15), rgba(255, 255, 255, .15));
     border-color: #fff;
 }
 
-.allo_action_btn.green {
+.allo_action-btn.green {
     background-color: rgba(75, 133, 110, .46);
     background-image: none;
     border-color: #46e68a;
 }
 
-.allo_action_btn_txt {
+.allo_action-btn_txt {
     float: left;
     text-align: center;
     font-size: 12px;
@@ -14262,7 +14262,7 @@ figcaption {
     display: block;
 }
 
-.rt_util_action_btn_ico {
+.rt_util_action-btn_ico {
     float: right;
 }
 
@@ -15730,7 +15730,7 @@ figcaption {
     display: grid;
 }
 
-.new_action_btn {
+.new_action-btn {
     color: var(--white);
     cursor: default;
     background-image: linear-gradient(#252525, rgba(224, 224, 224, .03));
@@ -15747,40 +15747,40 @@ figcaption {
     box-shadow: 0 0 1px rgba(0, 0, 0, .8);
 }
 
-.new_action_btn:hover {
+.new_action-btn:hover {
     background-color: #202225;
 }
 
-.new_action_btn.remove {
+.new_action-btn.remove {
     float: right;
     background-image: linear-gradient(#ff1b1b, #ff2323);
     position: static;
 }
 
-.new_action_btn.remove:hover {
+.new_action-btn.remove:hover {
     background-image: linear-gradient(#ff3636, #ff4242);
 }
 
-.new_action_btn.spin {
+.new_action-btn.spin {
     background-image: linear-gradient(#272727, rgba(224, 224, 224, .03));
 }
 
-.new_action_btn.link {
+.new_action-btn.link {
     background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 13.5px, auto;
 }
 
-.new_action_btn.port {
+.new_action-btn.port {
     background-image: url('../images/port_1.svg');
 }
 
-.new_action_btn.battery {
+.new_action-btn.battery {
     background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 16px, auto;
     padding-left: 33px;
 }
 
-.new_action_btn.battery.white {
+.new_action-btn.battery.white {
     background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
     background-position: 10px, 0 0;
     background-repeat: no-repeat, repeat;
@@ -15788,25 +15788,25 @@ figcaption {
     border-color: #fff;
 }
 
-.new_action_btn.switch {
+.new_action-btn.switch {
     background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 13px, auto;
 }
 
-.new_action_btn.report {
+.new_action-btn.report {
     background-image: linear-gradient(#ffa600, #ffa023);
 }
 
-.new_action_btn.report:hover {
+.new_action-btn.report:hover {
     background-image: linear-gradient(#ff9b29, #ffa125);
 }
 
-.new_action_btn.basic_auth {
+.new_action-btn.basic_auth {
     background-image: url('../images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 14px, auto;
 }
 
-.new_action_btn.basic_auth.preselected {
+.new_action-btn.basic_auth.preselected {
     background-image: url('../images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
     background-position: 10px, 0 0;
     background-repeat: no-repeat, repeat;
@@ -15814,41 +15814,41 @@ figcaption {
     border-color: #fff;
 }
 
-.new_action_btn.whitelist_auth {
+.new_action-btn.whitelist_auth {
     background-image: url('../images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 16px, auto;
     padding-left: 33px;
 }
 
-.new_action_btn.confirm {
+.new_action-btn.confirm {
     background-image: linear-gradient(#000 55%, rgba(0, 0, 0, .85));
     border-color: #000;
     padding-left: 10px;
     display: flex;
 }
 
-.new_action_btn.confirm:hover {
+.new_action-btn.confirm:hover {
     background-image: linear-gradient(rgba(0, 0, 0, .85) 60%, rgba(0, 0, 0, .55));
 }
 
-.new_action_btn.cancel {
+.new_action-btn.cancel {
     background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-position: 10px, 0 0;
     background-repeat: no-repeat, repeat;
 }
 
-.new_action_btn.white {
+.new_action-btn.white {
     background-image: linear-gradient(rgba(255, 255, 255, .15), rgba(255, 255, 255, .15));
     border-color: #fff;
 }
 
-.new_action_btn.green {
+.new_action-btn.green {
     background-color: rgba(75, 133, 110, .46);
     background-image: none;
     border-color: #46e68a;
 }
 
-.new_action_btn_txt {
+.new_action-btn_txt {
     float: left;
     text-align: center;
     letter-spacing: .1px;
@@ -18933,7 +18933,7 @@ figcaption {
     display: none;
 }
 
-.action_btn-inner {
+.action-btn-inner {
     height: 43px;
     border-radius: 4px;
     flex-direction: row;
@@ -19274,12 +19274,12 @@ figcaption {
     display: none;
 }
 
-.action_btn-wrap {
+.action-btn-wrap {
     height: 100%;
     border: 1px #000;
 }
 
-.action_btn-wrap.right {
+.action-btn-wrap.right {
     float: right;
     order: 1;
     align-items: center;
@@ -19309,7 +19309,7 @@ figcaption {
   grid-row-gap: 14px;
 }
 
-.action_btn {
+.action-btn {
     color: var(--white);
     cursor: default;
     background-image: linear-gradient(#252525, rgba(224, 224, 224, .03));
@@ -19326,40 +19326,40 @@ figcaption {
     box-shadow: 0 0 1px rgba(0, 0, 0, .8);
 }
 
-.action_btn:hover {
+.action-btn:hover {
     background-color: #202225;
 }
 
-.action_btn.remove {
+.action-btn.remove {
     float: right;
     background-image: linear-gradient(#ff1b1b, #ff2323);
     position: static;
 }
 
-.action_btn.remove:hover {
+.action-btn.remove:hover {
     background-image: linear-gradient(#ff3636, #ff4242);
 }
 
-.action_btn.spin {
+.action-btn.spin {
     background-image: linear-gradient(#272727, rgba(224, 224, 224, .03));
 }
 
-.action_btn.link {
+.action-btn.link {
     background-image: url('../images/link-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 13.5px, auto;
 }
 
-.action_btn.port {
+.action-btn.port {
     background-image: url('../images/port_1.svg');
 }
 
-.action_btn.battery {
+.action-btn.battery {
     background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 16px, auto;
     padding-left: 33px;
 }
 
-.action_btn.battery.white {
+.action-btn.battery.white {
     background-image: url('../images/battery-charging-01-line-white-1.5.svg'), linear-gradient(rgba(255, 255, 255, .26), rgba(255, 255, 255, .26));
     background-position: 10px, 0 0;
     background-repeat: no-repeat, repeat;
@@ -19367,25 +19367,25 @@ figcaption {
     border-color: #fff;
 }
 
-.action_btn.switch {
+.action-btn.switch {
     background-image: url('../images/switch-horizontal-01-btn.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 13px, auto;
 }
 
-.action_btn.report {
+.action-btn.report {
     background-image: linear-gradient(#ffa600, #ffa023);
 }
 
-.action_btn.report:hover {
+.action-btn.report:hover {
     background-image: linear-gradient(#ff9b29, #ffa125);
 }
 
-.action_btn.basic_auth {
+.action-btn.basic_auth {
     background-image: url('../images/passcode-lock.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 14px, auto;
 }
 
-.action_btn.basic_auth.preselected {
+.action-btn.basic_auth.preselected {
     background-image: url('../images/passcode-lock.svg'), linear-gradient(rgba(255, 255, 255, .19), rgba(255, 255, 255, .19));
     background-position: 10px, 0 0;
     background-repeat: no-repeat, repeat;
@@ -19393,47 +19393,47 @@ figcaption {
     border-color: #fff;
 }
 
-.action_btn.whitelist_auth {
+.action-btn.whitelist_auth {
     background-image: url('../images/signal-02.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-size: 16px, auto;
     padding-left: 33px;
 }
 
-.action_btn.confirm {
+.action-btn.confirm {
     background-image: linear-gradient(#000 55%, rgba(0, 0, 0, .85));
     border-color: #000;
     padding-left: 10px;
     display: flex;
 }
 
-.action_btn.confirm:hover {
+.action-btn.confirm:hover {
     background-image: linear-gradient(rgba(0, 0, 0, .85) 60%, rgba(0, 0, 0, .55));
 }
 
-.action_btn.cancel {
+.action-btn.cancel {
     background-image: url('../images/slash-circle-01.svg'), linear-gradient(#272727, rgba(224, 224, 224, .03));
     background-position: 10px, 0 0;
     background-repeat: no-repeat, repeat;
 }
 
-.action_btn.white {
+.action-btn.white {
     background-image: linear-gradient(rgba(255, 255, 255, .15), rgba(255, 255, 255, .15));
     border-color: #fff;
 }
 
-.action_btn.green {
+.action-btn.green {
     background-color: rgba(75, 133, 110, .46);
     background-image: none;
     border-color: #46e68a;
 }
 
-.action_btn.add_funds {
+.action-btn.add_funds {
     margin-top: 6px;
     margin-bottom: 6px;
     padding: 3px 9px;
 }
 
-.action_btn.help-btn {
+.action-btn.help-btn {
   justify-content: flex-start;
 }
 
@@ -19595,7 +19595,7 @@ figcaption {
     display: inline-block;
 }
 
-.action_btn-text {
+.action-btn-text {
     float: left;
     text-align: center;
     letter-spacing: .1px;
@@ -19603,23 +19603,23 @@ figcaption {
     font-weight: 400;
 }
 
-.action_btn-text.invisible {
+.action-btn-text.invisible {
     opacity: 0;
 }
 
-.action_btn-text.font_12 {
+.action-btn-text.font_12 {
     font-size: 12px;
 }
 
-.action_btn-text.font_12 {
+.action-btn-text.font_12 {
     font-size: 12px;
 }
 
-.action_btn-text.left {
+.action-btn-text.left {
     text-align: left;
 }
 
-.action_btn-text.right {
+.action-btn-text.right {
   color: #a9a9a9;
   text-align: right;
   flex: 1;
@@ -22709,7 +22709,7 @@ figcaption {
         display: block;
     }
 
-    .allo_action_btn {
+    .allo_action-btn {
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -24583,7 +24583,7 @@ figcaption {
         top: 90px;
     }
 
-    .action_btn-inner {
+    .action-btn-inner {
         height: 30px;
     }
 

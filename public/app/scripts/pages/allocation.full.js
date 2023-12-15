@@ -1401,8 +1401,8 @@ async function proxyActionGetProxies() {
             ["Yearly", "Monthly", "Weekly", "Daily", "Hourly"].forEach((periodTxt) => {
                 let btn = $("<div></div>")
                     .attr("id", `${periodTxt.toLowerCase()}Btn-${proxy_name}`)
-                    .addClass("allo_action_btn w-clearfix");
-                let btnText = $("<div></div>").addClass("allo_action_btn_txt").text(periodTxt);
+                    .addClass("allo_action-btn w-clearfix");
+                let btnText = $("<div></div>").addClass("allo_action-btn_txt").text(periodTxt);
                 if (periodTxt.toLocaleLowerCase() === period) {
                     btn.addClass("green");
                 }
@@ -2131,7 +2131,7 @@ async function proxyIntervalController() {
     }
 
     // Add click event listener to period buttons
-    $('.allo_action_btn').click(function () {
+    $('.allo_action-btn').click(function () {
         $("#checkoutCrdLoopLdr").hide();
         LottieInteractivity.create({
             player: "#checkoutCrdLoopLdr", mode: "chain", actions: [{state: "stop"}]
@@ -2210,11 +2210,11 @@ $('[checkout_btn="issue"]').click(async function () {
     window.open(`funds?custom=${requiredFunds}`, '_blank');
 });
 
-$('[mod_allocate_action_btn="cancel_allocate"]').click(async function () {
+$('[mod_allocate_action-btn="cancel_allocate"]').click(async function () {
     $(`.modal_overlay`).addClass("hide");
 });
 
-$('[mod_allocate_action_btn="confirm_allocate"]').off('click').click(async function () {
+$('[mod_allocate_action-btn="confirm_allocate"]').off('click').click(async function () {
     try {
         await collectProxySettings(`allocate`);
     } catch (error) {
@@ -2582,7 +2582,7 @@ async function proxyQuickMenus() {
     });
 
     // When the modal cancel button is clicked
-    $(document).on('click', '[mod_swap_action_btn="cancel_swap"]', function () {
+    $(document).on('click', '[mod_swap_action-btn="cancel_swap"]', function () {
         $(`[modal_overlay="swap"]`).addClass("hide");
         $(`.swap--dropdown`).addClass("hide");
         clearSwapSelected();
@@ -2658,14 +2658,14 @@ async function proxyQuickMenus() {
             });
     }
 
-    $('[mod_swap_action_btn="confirm_swap"]').click(async function () {
+    $('[mod_swap_action-btn="confirm_swap"]').click(async function () {
         await triggerProxySwap();
     });
 
 
     async function triggerProxySwap() {
         try {
-            $(`[action_btn_ico="swap"]`).css("background-size", 0);
+            $(`[action-btn_ico="swap"]`).css("background-size", 0);
             $(`[ldr_btn_ico="swap"]`).css('display', 'flex');
 
             LottieInteractivity.create({
@@ -2679,7 +2679,7 @@ async function proxyQuickMenus() {
 
             await proxyActionSwap(proxy_name, isp, location, copy_settings);
 
-            $(`[action_btn_ico="swap"]`).css("background-size", "unset");
+            $(`[action-btn_ico="swap"]`).css("background-size", "unset");
             $(`[ldr_btn_ico="swap"]`).css('display', 'none');
 
             LottieInteractivity.create({
@@ -2691,7 +2691,7 @@ async function proxyQuickMenus() {
         } catch (e) {
             console.error(e);
 
-            $(`[action_btn_ico="swap"]`).css("background-size", "unset");
+            $(`[action-btn_ico="swap"]`).css("background-size", "unset");
             $(`[ldr_btn_ico="swap"]`).css('display', 'none');
 
             LottieInteractivity.create({
@@ -2805,20 +2805,20 @@ async function proxyQuickMenus() {
 
 
     // When the cancel button is clicked
-    $(document).on('click', '[mod_remove_action_btn="cancel_remove"]', async function () {
+    $(document).on('click', '[mod_remove_action-btn="cancel_remove"]', async function () {
         $(`[remove_proxy="text"]`).text('');
         $(`[modal_overlay="remove"]`).addClass("hide");
     });
 
 
-    $('[mod_remove_action_btn="confirm_remove"]').click(async function () {
+    $('[mod_remove_action-btn="confirm_remove"]').click(async function () {
         await triggerProxyRemove();
     });
 
 
     async function triggerProxyRemove() {
         try {
-            $(`[action_btn_ico="remove"]`).css("background-size", 0);
+            $(`[action-btn_ico="remove"]`).css("background-size", 0);
             $(`[ldr_btn_ico="remove"]`).css('display', 'flex');
 
             LottieInteractivity.create({
@@ -2835,7 +2835,7 @@ async function proxyQuickMenus() {
 
             await proxyActionRemove(proxiesArray);
 
-            $(`[action_btn_ico="remove"]`).css("background-size", "unset");
+            $(`[action-btn_ico="remove"]`).css("background-size", "unset");
             $(`[ldr_btn_ico="remove"]`).css('display', 'none');
 
             LottieInteractivity.create({
@@ -2847,7 +2847,7 @@ async function proxyQuickMenus() {
         } catch (e) {
             console.error(e);
 
-            $(`[action_btn_ico="remove"]`).css("background-size", "unset");
+            $(`[action-btn_ico="remove"]`).css("background-size", "unset");
             $(`[ldr_btn_ico="remove"]`).css('display', 'none');
 
             LottieInteractivity.create({

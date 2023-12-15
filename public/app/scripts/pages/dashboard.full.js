@@ -2656,14 +2656,14 @@ async function modalAuthOptions(command) {
 }
 
 
-$('[mod_swap_action_btn="confirm_swap"]').click(async function () {
+$('[mod_swap_action-btn="confirm_swap"]').click(async function () {
     await triggerProxySwap();
 });
 
 
 async function triggerProxySwap() {
     try {
-        $(`[action_btn_ico="swap"]`).css("background-size", 0);
+        $(`[action-btn_ico="swap"]`).css("background-size", 0);
         $(`[ldr_btn_ico="swap"]`).css('display', 'flex');
 
         LottieInteractivity.create({
@@ -2677,7 +2677,7 @@ async function triggerProxySwap() {
 
         await proxyActionSwap(proxy_name, isp, location, copy_settings);
 
-        $(`[action_btn_ico="swap"]`).css("background-size", "unset");
+        $(`[action-btn_ico="swap"]`).css("background-size", "unset");
         $(`[ldr_btn_ico="swap"]`).css('display', 'none');
 
         LottieInteractivity.create({
@@ -2689,7 +2689,7 @@ async function triggerProxySwap() {
     } catch (e) {
         console.error(e);
 
-        $(`[action_btn_ico="swap"]`).css("background-size", "unset");
+        $(`[action-btn_ico="swap"]`).css("background-size", "unset");
         $(`[ldr_btn_ico="swap"]`).css('display', 'none');
 
         LottieInteractivity.create({
@@ -2752,7 +2752,7 @@ async function proxyActionSwap(proxy_name, isp, location, copy_settings) {
 
 
 // When the cancel button is clicked
-$(document).on('click', '[mod_action_btn="swap"]', async function () {
+$(document).on('click', '[mod_action-btn="swap"]', async function () {
     const proxy = $(`#currentProxy`).text();
     const isp = $(`#cp-header-isp`).text();
     const location = $(`#cp-specs-loc`).text().replace(/,/g, '');
@@ -2910,7 +2910,7 @@ $(document).on('click', '[swap_btn="cancel"]', function () {
 });
 
 // When the modal cancel button is clicked
-$(document).on('click', '[mod_swap_action_btn="cancel_swap"]', function () {
+$(document).on('click', '[mod_swap_action-btn="cancel_swap"]', function () {
     $(`.modal_overlay`).addClass("hide");
     $(`.swap--dropdown`).addClass("hide");
     clearSwapSelected();
@@ -3033,7 +3033,7 @@ async function proxyActionRemove(proxies) {
 
 
 // When the cancel button is clicked
-$(document).on('click', '[mod_action_btn="remove"]', async function () {
+$(document).on('click', '[mod_action-btn="remove"]', async function () {
     const proxy = $(`#currentProxy`).text();
     $(`[remove_proxy="text"]`).text(proxy);
     $(`[modal_overlay="remove"]`).removeClass("hide");
@@ -3041,20 +3041,20 @@ $(document).on('click', '[mod_action_btn="remove"]', async function () {
 
 
 // When the cancel button is clicked
-$(document).on('click', '[mod_remove_action_btn="cancel_remove"]', async function () {
+$(document).on('click', '[mod_remove_action-btn="cancel_remove"]', async function () {
     $(`[remove_proxy="text"]`).text('');
     $(`[modal_overlay="remove"]`).addClass("hide");
 });
 
 
-$('[mod_remove_action_btn="confirm_remove"]').click(async function () {
+$('[mod_remove_action-btn="confirm_remove"]').click(async function () {
     await triggerProxyRemove();
 });
 
 
 async function triggerProxyRemove() {
     try {
-        $(`[action_btn_ico="remove"]`).css("background-size", 0);
+        $(`[action-btn_ico="remove"]`).css("background-size", 0);
         $(`[ldr_btn_ico="remove"]`).css('display', 'flex');
 
         LottieInteractivity.create({
@@ -3067,7 +3067,7 @@ async function triggerProxyRemove() {
 
         await proxyActionRemove(proxies);
 
-        $(`[action_btn_ico="remove"]`).css("background-size", "unset");
+        $(`[action-btn_ico="remove"]`).css("background-size", "unset");
         $(`[ldr_btn_ico="remove"]`).css('display', 'none');
 
         LottieInteractivity.create({
@@ -3079,7 +3079,7 @@ async function triggerProxyRemove() {
     } catch (e) {
         console.error(e);
 
-        $(`[action_btn_ico="remove"]`).css("background-size", "unset");
+        $(`[action-btn_ico="remove"]`).css("background-size", "unset");
         $(`[ldr_btn_ico="remove"]`).css('display', 'none');
 
         LottieInteractivity.create({

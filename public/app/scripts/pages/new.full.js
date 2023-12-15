@@ -694,7 +694,7 @@ function convertMultipleJumps(currentValue, input, initialPeriod) {
         // Check if a 'next' period exists before proceeding
         if (conversionRates[period]) {
             const nextPeriod = conversionRates[period].next;
-            $(`[action_btns="period"]`).attr('current_period', nextPeriod);
+            $(`[action-btns="period"]`).attr('current_period', nextPeriod);
 
             currentValue = Math.floor(currentValue / conversionRates[period].divisor);
 
@@ -787,7 +787,7 @@ function handleInput(element, increment) {
         player: "#checkoutCrdAutoplayLdr", mode: "chain", actions: [{state: "autoplay"}]
     });
     let input = $(element);
-    let periodElement = $(`[action_btns="period"]`);
+    let periodElement = $(`[action-btns="period"]`);
     let period = periodElement.attr('current_period') || 'hourly';
 
     // Set initial_period if it's not set yet
@@ -811,7 +811,7 @@ function handleDirectInput(element) {
         player: "#checkoutCrdAutoplayLdr", mode: "chain", actions: [{state: "autoplay"}]
     });
     let input = $(element);
-    let periodElement = $(`[action_btns="period"]`);
+    let periodElement = $(`[action-btns="period"]`);
     let period = periodElement.attr('current_period') || 'hourly'; // Default to hourly if no period set
 
     // Set initial_period if it's not set yet
@@ -918,7 +918,7 @@ async function getUser(token) {
 async function intervalController() {
 
     // Add click event listener to period buttons
-    $('.new_action_btn').click(function () {
+    $('.new_action-btn').click(function () {
         console.log('click event listener triggered');
         $("#checkoutCrdLoopLdr").hide();
         $(".skel_checkout, #checkoutCrdAutoplayLdr").show();
@@ -931,7 +931,7 @@ async function intervalController() {
         let newPeriod = $(this).attr(`period_btn`);
 
         // Get the current period
-        let currentPeriodElem = $(`[action_btns="period"]`);
+        let currentPeriodElem = $(`[action-btns="period"]`);
 
         // Set the currentPeriod if it is not already set
         if (!currentPeriodElem.attr('current_period')) {
@@ -1186,7 +1186,7 @@ async function collectProxySettings(action) {
                 let loc = $(this).attr('input_loc');
                 let intervalInput = $(`[period_length="input"]`);
                 let interval = parseInt(intervalInput.val(), 10);
-                let period = $(`[action_btns="period"]`).attr('current_period') || 'hourly'; // Default to hourly if no period set
+                let period = $(`[action-btns="period"]`).attr('current_period') || 'hourly'; // Default to hourly if no period set
 
                 // Loop based on the quantity and push the object to cartArray
                 for (let i = 0; i < quantity; i++) {
@@ -1248,7 +1248,7 @@ async function collectProxySettings(action) {
             let loc = $(this).attr('input_loc');
             let intervalInput = $(`[period_length="input"]`);
             let interval = parseInt(intervalInput.val(), 10);
-            let period = $(`[action_btns="period"]`).attr('current_period') || 'hourly'; // Default to hourly if no period set
+            let period = $(`[action-btns="period"]`).attr('current_period') || 'hourly'; // Default to hourly if no period set
 
             // Loop based on the quantity and push the object to cartArray
             for (let i = 0; i < quantity; i++) {

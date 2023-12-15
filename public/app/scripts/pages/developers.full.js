@@ -698,8 +698,8 @@ async function maskedApiKeys(type) {
                     .text(apiKey.key)
                     .attr('key_id', apiKey.key_id) // Set the key_id attribute
                     .attr('scope', JSON.stringify(apiKey.scope)); // Set the scope attribute as a JSON string
-                $(`[action_btn_copy="${determinedType}"]`).hide();
-                $(`[action_btn_reveal="${determinedType}"]`).css('display', 'flex');
+                $(`[action-btn_copy="${determinedType}"]`).hide();
+                $(`[action-btn_reveal="${determinedType}"]`).css('display', 'flex');
             }
         });
     } else {
@@ -709,9 +709,9 @@ async function maskedApiKeys(type) {
 }
 
 async function revealApiKey(type) {
-    let actionBtnMain = $(`[action_btn_reveal="${type}"]`);
-    let actionBtnCopy = $(`[action_btn_copy="${type}"]`);
-    let actionIco = $(`[action_btn_ico_reveal="${type}"]`);
+    let actionBtnMain = $(`[action-btn_reveal="${type}"]`);
+    let actionBtnCopy = $(`[action-btn_copy="${type}"]`);
+    let actionIco = $(`[action-btn_ico_reveal="${type}"]`);
     let ldrLottie = $(`[lottie_ldr_reveal="${type}"]`);
 
     try {
@@ -785,7 +785,7 @@ async function revealApiKey(type) {
 
 
 async function copyApiKey(type) {
-    let actionIco = $(`[action_btn_ico_copy="${type}"]`);
+    let actionIco = $(`[action-btn_ico_copy="${type}"]`);
     let ldrLottie = $(`[lottie_ldr_copy="${type}"]`);
     try {
         actionIco.css("background-size", 0);
@@ -873,7 +873,7 @@ async function copyApiKey(type) {
 }
 
 async function triggerKeyRoll(type) {
-    let actionIco = $(`[action_btn_ico_roll="${type}"]`);
+    let actionIco = $(`[action-btn_ico_roll="${type}"]`);
     let ldrLottie = $(`[lottie_ldr_roll="${type}"]`);
 
     try {
@@ -918,19 +918,19 @@ async function triggerKeyRoll(type) {
     }
 }
 
-$(`[action_btn_reveal]`).off('click').click(async function () {
-    let type = $(this).attr('action_btn_reveal');
+$(`[action-btn_reveal]`).off('click').click(async function () {
+    let type = $(this).attr('action-btn_reveal');
     await revealApiKey(type);
 })
 
-$(`[action_btn_copy]`).off('click').click(async function () {
-    let type = $(this).attr('action_btn_copy');
+$(`[action-btn_copy]`).off('click').click(async function () {
+    let type = $(this).attr('action-btn_copy');
     await copyApiKey(type);
 })
 
 
-$(`[action_btn_roll]`).off('click').click(async function () {
-    let type = $(this).attr('action_btn_roll');
+$(`[action-btn_roll]`).off('click').click(async function () {
+    let type = $(this).attr('action-btn_roll');
     await triggerKeyRoll(type);
 })
 

@@ -440,8 +440,8 @@ async function updateUser(user) {
     }
 
     if (!member && member_claim === true && member_username !== null) {
-        $(`[action_btn="is_member"]`).addClass(`green`);
-        $(`[action_btn="not_member"]`).removeClass(`green`);
+        $(`[action-btn="is_member"]`).addClass(`green`);
+        $(`[action-btn="not_member"]`).removeClass(`green`);
         $(`[member_input="username"]`).val(user.data.member_username);
         await showHideSectBlock(null, $(`[sect_block="username"]`));
         await showHideSectBlock(null, $(`[sect_block="lic_key"]`));
@@ -667,27 +667,27 @@ setupInactivityDetection();
 
 
 async function sendMemberClaim(member) {
-    let action_btn_attr;
+    let action-btn_attr;
     if (member) {
-        action_btn_attr = `is_member`;
+        action-btn_attr = `is_member`;
     } else {
-        action_btn_attr = `not_member`;
+        action-btn_attr = `not_member`;
     }
     try {
-        $(`[lottie_ldr_wrap="${action_btn_attr}"]`).show();
-        $(`[action_btn_text="${action_btn_attr}"]`).addClass(`invisible`)
+        $(`[lottie_ldr_wrap="${action-btn_attr}"]`).show();
+        $(`[action-btn-text="${action-btn_attr}"]`).addClass(`invisible`)
 
         LottieInteractivity.create({
-            player: `[lottie_ldr="${action_btn_attr}"]`, mode: "chain", actions: [{state: "loop"}]
+            player: `[lottie_ldr="${action-btn_attr}"]`, mode: "chain", actions: [{state: "loop"}]
         });
 
         await updateMember(null, `claim`, member)
 
-        $(`[lottie_ldr_wrap="${action_btn_attr}"]`).hide();
-        $(`[action_btn_text="${action_btn_attr}"]`).removeClass(`invisible`)
+        $(`[lottie_ldr_wrap="${action-btn_attr}"]`).hide();
+        $(`[action-btn-text="${action-btn_attr}"]`).removeClass(`invisible`)
 
         LottieInteractivity.create({
-            player: `[lottie_ldr="${action_btn_attr}"]`, mode: "chain", actions: [{state: "stop"}]
+            player: `[lottie_ldr="${action-btn_attr}"]`, mode: "chain", actions: [{state: "stop"}]
         });
 
         return {
@@ -698,11 +698,11 @@ async function sendMemberClaim(member) {
     } catch (e) {
         console.error(e);
 
-        $(`[lottie_ldr_wrap="${action_btn_attr}"]`).hide();
-        $(`[action_btn_text="${action_btn_attr}"]`).removeClass(`invisible`)
+        $(`[lottie_ldr_wrap="${action-btn_attr}"]`).hide();
+        $(`[action-btn-text="${action-btn_attr}"]`).removeClass(`invisible`)
 
         LottieInteractivity.create({
-            player: `[lottie_ldr="${action_btn_attr}"]`, mode: "chain", actions: [{state: "stop"}]
+            player: `[lottie_ldr="${action-btn_attr}"]`, mode: "chain", actions: [{state: "stop"}]
         });
 
         return {
@@ -757,7 +757,7 @@ async function sendMemberUsername(username) {
 async function sendMemberNotify(notify) {
     try {
         $(`[lottie_ldr_wrap="notify_team"]`).show();
-        $(`[action_btn_text="notify_team"]`).addClass(`invisible`)
+        $(`[action-btn-text="notify_team"]`).addClass(`invisible`)
 
         LottieInteractivity.create({
             player: `[lottie_ldr="username"]`, mode: "chain", actions: [{state: "loop"}]
@@ -797,7 +797,7 @@ async function sendMemberNotify(notify) {
 async function copyLicKey() {
     try {
         $(`[lottie_ldr_wrap="copy"]`).show();
-        $(`[action_btn_ico="copy"]`).addClass(`invisible`)
+        $(`[action-btn_ico="copy"]`).addClass(`invisible`)
 
         LottieInteractivity.create({
             player: `[lottie_ldr="copy"]`, mode: "chain", actions: [{state: "loop"}]
@@ -817,7 +817,7 @@ async function copyLicKey() {
         });
 
         $(`[lottie_ldr_wrap="copy"]`).hide();
-        $(`[action_btn_ico="copy"]`).removeClass(`invisible`)
+        $(`[action-btn_ico="copy"]`).removeClass(`invisible`)
 
         LottieInteractivity.create({
             player: `[lottie_ldr="copy"]`, mode: "chain", actions: [{state: "stop"}]
@@ -825,7 +825,7 @@ async function copyLicKey() {
 
     } catch (error) {
         $(`[lottie_ldr_wrap="copy"]`).hide();
-        $(`[action_btn_ico="copy"]`).removeClass(`invisible`)
+        $(`[action-btn_ico="copy"]`).removeClass(`invisible`)
 
         LottieInteractivity.create({
             player: `[lottie_ldr="copy"]`, mode: "chain", actions: [{state: "stop"}]
@@ -854,16 +854,16 @@ async function showHideSectBlock(hideElement, showElement) {
     }, 10);
 }
 
-$(`[action_btn="enable_member_start"]`).off('click').click(async function () {
+$(`[action-btn="enable_member_start"]`).off('click').click(async function () {
     await showHideSectBlock($(`[sect_content="enable_start"]`), $(`[sect_content="enable_form"]`));
 })
 
-$(`[action_btn="is_member"]`).off('click').click(async function () {
+$(`[action-btn="is_member"]`).off('click').click(async function () {
     const request = await sendMemberClaim(true);
     // check if request was successful or error
     if (request.ok) {
         $(this).addClass(`green`);
-        $(`[action_btn="not_member"]`).removeClass(`green`);
+        $(`[action-btn="not_member"]`).removeClass(`green`);
         $(`.form_block`).hide();
         $(`[sect_block="specify_member"]`).show();
         await showHideSectBlock(null, $(`[sect_block="username"]`));
@@ -878,12 +878,12 @@ $(document).ready(function () {
     });
 });
 
-$(`[action_btn="not_member"]`).off('click').click(async function () {
+$(`[action-btn="not_member"]`).off('click').click(async function () {
     const request = await sendMemberClaim(false);
     // check if request was successful or error
     if (request.ok) {
         $(this).addClass(`green`);
-        $(`[action_btn="is_member"]`).removeClass(`green`);
+        $(`[action-btn="is_member"]`).removeClass(`green`);
         $(`.form_block`).hide();
         $(`[sect_block="specify_member"]`).show();
         await showHideSectBlock(null, $(`[sect_block="create_account"]`));
@@ -905,12 +905,12 @@ $(`[member_input_btn="username"]`).off('click').click(async function () {
 })
 
 
-$(`[action_btn="not_member"]`).off('click').click(async function () {
+$(`[action-btn="not_member"]`).off('click').click(async function () {
     const request = await sendMemberClaim(false);
     // check if request was successful or error
     if (request.ok) {
         $(this).addClass(`green`);
-        $(`[action_btn="is_member"]`).removeClass(`green`);
+        $(`[action-btn="is_member"]`).removeClass(`green`);
         $(`.form_block`).hide();
         $(`[sect_block="specify_member"]`).show();
         await showHideSectBlock(null, $(`[sect_block="create_account"]`));
@@ -919,7 +919,7 @@ $(`[action_btn="not_member"]`).off('click').click(async function () {
     }
 })
 
-$(`[action_btn="notify_team"]`).off('click').click(async function () {
+$(`[action-btn="notify_team"]`).off('click').click(async function () {
     const request = await sendMemberNotify(true);
     // check if request was successful or error
     if (request.ok) {
@@ -931,7 +931,7 @@ $(`[action_btn="notify_team"]`).off('click').click(async function () {
 
 })
 
-$(`[action_btn="copy"]`).off('click').click(async function () {
+$(`[action-btn="copy"]`).off('click').click(async function () {
     await copyLicKey();
 })
 
