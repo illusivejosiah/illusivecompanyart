@@ -886,7 +886,7 @@ $(`[action-btn-issue-service]`).off('click').click(async function () {
     console.log(`service`, service);
     if (service === `none`) {
         console.log(`service none`);
-        $(`[action-btn-issue-severity]`).removeClass(`green`)
+        $(`[action-btn-issue-service]`).removeClass(`green`)
             .removeAttr(`data-selected`);
         $(this).addClass(`green`)
             .attr({
