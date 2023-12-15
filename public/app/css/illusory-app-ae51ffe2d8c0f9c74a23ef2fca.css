@@ -19020,6 +19020,12 @@ figcaption {
     padding-left: 75px;
 }
 
+.ill_input.textarea--message {
+    min-height: 120px;
+    width: 100%;
+    resize: vertical;
+}
+
 .grid-13 {
     grid-template-rows: auto;
     margin-bottom: 15px;
@@ -19251,6 +19257,10 @@ figcaption {
     align-items: center;
     margin-bottom: 15px;
     display: flex;
+}
+
+.input_grid--wrap.textarea {
+    display: initial!important;
 }
 
 .input_confirm--wrap {
