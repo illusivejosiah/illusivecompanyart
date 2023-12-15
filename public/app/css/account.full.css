@@ -248,7 +248,7 @@ input[type=checkbox], input[type=radio] {
     font-weight: 400;
 }
 
-.loader--wrp {
+.loader-wrp {
     border: 10px solid;
     border-image: linear-gradient(to right, #7000ff, #e05a1f) 1 stretch;
     border-radius: 3px;

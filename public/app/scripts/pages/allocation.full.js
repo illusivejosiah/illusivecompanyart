@@ -1273,7 +1273,7 @@ async function proxyActionGetProxies() {
                     "appearance": "none"
                 })
                 .on('input', validateInput);
-            let inputEmbed = $("<div></div>").addClass("w-embed qm_item_auto_renew_input--wrap");
+            let inputEmbed = $("<div></div>").addClass("w-embed qm_item_auto_renew_input-wrap");
             inputEmbed.append(inputElement);
             let quickMenuRenewIntervalRight = $("<div></div>").addClass("qm_item right");
             quickMenuRenewIntervalRight.append(quickMenuRenewIntervalIco, inputEmbed);
@@ -1496,36 +1496,36 @@ async function proxyActionGetProxies() {
             let infoImgExpires = $("<img>").attr({
                 "src": "https://uploads-ssl.webflow.com/61e7cdbd824d2f94d05c4edc/64b6d137c5e0af10f266c1ed_info-circle-duo-2.svg",
                 "crd_expires_info_icon": proxy_name,
-            }).addClass("info_circle_duo--icon");
+            }).addClass("info_circle_duo-icon");
 
-            // Create the outer div with class 'info--wrap' and attribute 'crd_expires_tip'
-            let infoWrap = $("<div></div>").addClass("info--wrap")
+            // Create the outer div with class 'info-wrap' and attribute 'crd_expires_tip'
+            let infoWrap = $("<div></div>").addClass("info-wrap")
                 .attr("crd_expires_tip", proxy_name);
 
-            // Create the first inner div with class 'info_grid--wrap'
-            let infoGridWrap = $("<div></div>").addClass("info_grid--wrap");
+            // Create the first inner div with class 'info_grid-wrap'
+            let infoGridWrap = $("<div></div>").addClass("info_grid-wrap");
             infoWrap.append(infoGridWrap);
 
-            // Create the first grid item with class 'info_grid--item'
-            let infoGridItem = $("<div></div>").addClass("w-layout-grid info_grid--item one")
+            // Create the first grid item with class 'info_grid-item'
+            let infoGridItem = $("<div></div>").addClass("w-layout-grid info_grid-item one")
                 .attr("crd_expires_info", proxy_name);
             infoGridWrap.append(infoGridItem);
 
             let localTime = formatToLocalTime(expires_at);
 
             // Add the text for the first grid item
-            let infoItemText = $("<div></div>").addClass("info_item--text")
+            let infoItemText = $("<div></div>").addClass("info_item-text")
                 .attr("crd_expires_info_text", proxy_name)
                 .text(localTime);
             infoGridItem.append(infoItemText);
 
-            // Create the second grid item with class 'info_grid--item-explain'
-            let infoGridItemExplain = $("<div></div>").addClass("w-layout-grid info_grid--item-explain one")
+            // Create the second grid item with class 'info_grid-item-explain'
+            let infoGridItemExplain = $("<div></div>").addClass("w-layout-grid info_grid-item-explain one")
                 .attr("crd_expires_explain", proxy_name);
             infoGridWrap.append(infoGridItemExplain);
 
             // Add the description text for the second grid item
-            let infoItemDescription = $("<div></div>").addClass("info_item--text explain")
+            let infoItemDescription = $("<div></div>").addClass("info_item-text explain")
                 .attr("crd_expires_explain_text", proxy_name)
                 .text("The time at which this proxy expires in Standard Time.");
             infoGridItemExplain.append(infoItemDescription);
@@ -2495,7 +2495,7 @@ async function proxyQuickMenus() {
                 let isDisabled = stock === 0 || open !== true;
 
                 const $gridItem = $('<div>')
-                    .addClass('swap_drop_grid--item')
+                    .addClass('swap_drop_grid-item')
                     .attr('swap_loc_btn', city);
                 if (isDisabled) {
                     $gridItem.addClass('disabled'); // Add 'disabled' class if necessary
@@ -2503,11 +2503,11 @@ async function proxyQuickMenus() {
                 }
 
                 const $locationText = $('<div>')
-                    .addClass('swap_drop_grid_item--text')
+                    .addClass('swap_drop_grid_item-text')
                     .attr('swap_loc', city)
                     .text(`${city} ${state}`);
                 const $stockText = $('<div>')
-                    .addClass('swap_drop_loc_stock--text')
+                    .addClass('swap_drop_loc_stock-text')
                     .attr('swap_loc_stock', city)
                     .text(stock);
 
@@ -2936,7 +2936,7 @@ async function deferredActions() {
     }
 
     // Usage example
-    setupTooltipListeners('.info_circle_duo--icon', '.info--wrap');
+    setupTooltipListeners('.info_circle_duo-icon', '.info-wrap');
 
 
 }

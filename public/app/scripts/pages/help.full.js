@@ -1005,7 +1005,7 @@ async function deferredActions() {
         });
     }
 
-    setupTooltipListeners('.info_circle_duo--icon', '.info--wrap');
+    setupTooltipListeners('.info_circle_duo-icon', '.info-wrap');
 }
 
 /**

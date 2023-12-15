@@ -111,7 +111,7 @@
     height: var(--default-height);
 }
 
-.info_explain--text-code {
+.info_explain-text-code {
     background-color: #232323;
     padding: 1px 4px;
     border-radius: 4px;
@@ -128,7 +128,7 @@
 .skel_bg_light,
 .skel_bg_crd,
 .skel_bg_cnt_active,
-.skel_swap_grid_item--bg {
+.skel_swap_grid_item-bg {
     animation-name: gradient-animation;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -186,7 +186,7 @@
     background-color: #202020;
 }
 
-.user_btn_item--text {
+.user_btn_item-text {
     text-overflow: ellipsis;
 }
 
@@ -194,7 +194,7 @@
     display: none;
 }
 
-.loader--wrp {
+.loader-wrp {
     border: 10px solid;
     border-image: linear-gradient(to right, #7000ff, #e05a1f) 1 stretch;
     border-radius: 3px;

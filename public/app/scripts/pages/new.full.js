@@ -1389,7 +1389,7 @@ async function getStock() {
             }
             let content = $('<div></div>').addClass('loc_crd_content w-clearfix');
 
-            let titleContainer = $('<div></div>').addClass('loc_crd_tit--inner');
+            let titleContainer = $('<div></div>').addClass('loc_crd_tit-inner');
             let title = $('<div></div>').attr('loc_tit', city).addClass('loc_crd_tit').text(`${city}, ${state}`);
             let availableStock = $('<div></div>').attr({
                 'loc_stock_total': city, 'stock': locationTotal
@@ -2129,7 +2129,7 @@ async function deferredActions() {
     }
 
 // Usage example
-    setupTooltipListeners('.info_circle_duo--icon', '.info--wrap');
+    setupTooltipListeners('.info_circle_duo-icon', '.info-wrap');
 
 
 }

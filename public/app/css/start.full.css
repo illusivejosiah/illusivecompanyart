@@ -77,7 +77,7 @@ input[type=number] {
     background-color: #202020;
 }
 
-.user_btn_item--text {
+.user_btn_item-text {
     text-overflow: ellipsis;
 }
 
@@ -85,7 +85,7 @@ input[type=number] {
     display: none;
 }
 
-.loader--wrp {
+.loader-wrp {
     border: 10px solid;
     border-image: linear-gradient(to right, #7000ff, #e05a1f) 1 stretch;
     border-radius: 3px;

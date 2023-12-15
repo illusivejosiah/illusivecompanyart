@@ -34,7 +34,7 @@ button[disabled], html input[disabled] {
     color: #232323;
 }
 
-.info_explain--text-code {
+.info_explain-text-code {
     background-color: #232323;
     padding: 1px 4px;
     border-radius: 4px;
@@ -53,7 +53,7 @@ button[disabled], html input[disabled] {
     animation-iteration-count: infinite;
 }
 
-.loader--wrp {
+.loader-wrp {
     border: 10px solid;
     border-image: linear-gradient(to right, #7000ff, #e05a1f) 1 stretch;
     border-radius: 3px;
