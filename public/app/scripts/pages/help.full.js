@@ -883,7 +883,9 @@ $(`[action-btn-issue-severity]`).off('click').click(async function () {
 // Select issue service
 $(`[action-btn-issue-service]`).off('click').click(async function () {
     const service = $(this).attr(`action-btn-issue-service`);
+    console.log(`service`, service);
     if (service === `none`) {
+        console.log(`service none`);
         $(`[action-btn-issue-severity]`).removeClass(`green`)
             .removeAttr(`data-selected`);
         $(this).addClass(`green`)
@@ -891,8 +893,10 @@ $(`[action-btn-issue-service]`).off('click').click(async function () {
                 'data-selected': true,
             });
     } else {
-        const serviceNone = $(`[action-btn-issue-service="none"]`);
-        if (serviceNone.hasClass(`green`)) {
+        console.log(`service not none`);
+        const serviceNone = $(`[action-btn-issue-service="none"]`).attr(`data-selected`)
+        if (serviceNone) {
+            console.log(`service none has data-selected`);
             serviceNone.removeClass(`green`)
                 .removeAttr(`data-selected`);
         }
