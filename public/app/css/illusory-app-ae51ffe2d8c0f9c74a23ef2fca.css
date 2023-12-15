@@ -20647,6 +20647,8 @@ figcaption {
 
     .cta_crd--grid.small {
         grid-template-columns: 1fr 1fr;
+        max-width: 550px;
+        margin: auto;
     }
 
     .prx_swap_crd__ind-wrap {
