@@ -858,25 +858,15 @@ $(`[action-btn="enable_member_start"]`).off('click').click(async function () {
     await showHideSectBlock($(`[sect_content="enable_start"]`), $(`[sect_content="enable_form"]`));
 })
 
-$(`[action-btn="is_member"]`).off('click').click(async function () {
-    const request = await sendMemberClaim(true);
-    // check if request was successful or error
-    if (request.ok) {
-        $(this).addClass(`green`);
-        $(`[action-btn="not_member"]`).removeClass(`green`);
-        $(`.form_block`).hide();
-        $(`[sect_block="specify_member"]`).show();
-        await showHideSectBlock(null, $(`[sect_block="username"]`));
-    } else {
-        errAlert(`Error with your request`, request.message);
-    }
-
+$(`[action-btn-issue-area]`).off('click').click(async function () {
+    // remove green and remove data-selected
+    $(`[action-btn-issue-area]`).removeClass(`green`)
+        .removeAttr(`data-selected`);
+    $(this).addClass(`green`)
+        .attr({
+            'data-selected': true,
+        });
 })
-$(document).ready(function () {
-    $('[member_input="username"]').focus(function () {
-        $('[member_input_btn="username"]').show();
-    });
-});
 
 $(`[action-btn="not_member"]`).off('click').click(async function () {
     const request = await sendMemberClaim(false);
