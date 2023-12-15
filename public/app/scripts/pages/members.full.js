@@ -667,27 +667,27 @@ setupInactivityDetection();
 
 
 async function sendMemberClaim(member) {
-    let action-btn_attr;
+    let actionBtnAtrr;
     if (member) {
-        action-btn_attr = `is_member`;
+        actionBtnAtrr = `is_member`;
     } else {
-        action-btn_attr = `not_member`;
+        actionBtnAtrr = `not_member`;
     }
     try {
-        $(`[lottie_ldr_wrap="${action-btn_attr}"]`).show();
-        $(`[action-btn-text="${action-btn_attr}"]`).addClass(`invisible`)
+        $(`[lottie_ldr_wrap="${actionBtnAtrr}"]`).show();
+        $(`[action-btn-text="${actionBtnAtrr}"]`).addClass(`invisible`)
 
         LottieInteractivity.create({
-            player: `[lottie_ldr="${action-btn_attr}"]`, mode: "chain", actions: [{state: "loop"}]
+            player: `[lottie_ldr="${actionBtnAtrr}"]`, mode: "chain", actions: [{state: "loop"}]
         });
 
         await updateMember(null, `claim`, member)
 
-        $(`[lottie_ldr_wrap="${action-btn_attr}"]`).hide();
-        $(`[action-btn-text="${action-btn_attr}"]`).removeClass(`invisible`)
+        $(`[lottie_ldr_wrap="${actionBtnAtrr}"]`).hide();
+        $(`[action-btn-text="${actionBtnAtrr}"]`).removeClass(`invisible`)
 
         LottieInteractivity.create({
-            player: `[lottie_ldr="${action-btn_attr}"]`, mode: "chain", actions: [{state: "stop"}]
+            player: `[lottie_ldr="${actionBtnAtrr}"]`, mode: "chain", actions: [{state: "stop"}]
         });
 
         return {
@@ -698,11 +698,11 @@ async function sendMemberClaim(member) {
     } catch (e) {
         console.error(e);
 
-        $(`[lottie_ldr_wrap="${action-btn_attr}"]`).hide();
-        $(`[action-btn-text="${action-btn_attr}"]`).removeClass(`invisible`)
+        $(`[lottie_ldr_wrap="${actionBtnAtrr}"]`).hide();
+        $(`[action-btn-text="${actionBtnAtrr}"]`).removeClass(`invisible`)
 
         LottieInteractivity.create({
-            player: `[lottie_ldr="${action-btn_attr}"]`, mode: "chain", actions: [{state: "stop"}]
+            player: `[lottie_ldr="${actionBtnAtrr}"]`, mode: "chain", actions: [{state: "stop"}]
         });
 
         return {
